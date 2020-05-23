@@ -42,6 +42,6 @@ def check(item_name='concept 2', query_url='https://www.marktplaats.nl/lrp/api/s
     mac_dir = ''
     file_name = pi_dir + item_name.replace(' ','_').lower() + '_response.csv'
     items_df = get_items(query_url) # get items
-    notify(items_df, file_name, item_name, chat_id) # mail new id's
+    #notify(items_df, file_name, item_name, chat_id) # mail new id's
     items_df.to_csv(file_name) # save csv
     return
