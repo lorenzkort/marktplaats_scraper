@@ -2,7 +2,6 @@
 import urllib.request
 import json
 import pandas as pd
-from send_mail import mail_data
 from telegram_bot import telegram_send_text
 
 def get_items(query_url):
