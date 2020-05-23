@@ -38,7 +38,9 @@ def notify(df, file_name, item_name, chat_id='-425371692'):
     return
 
 def check(item_name='concept 2', query_url='https://www.marktplaats.nl/lrp/api/search?l1CategoryId=784&limit=100&offset=0&postcode=2012EG&query=concept%202&sortBy=SORT_INDEX&sortOrder=DECREASING&viewOptions=list-view', chat_id='-425371692'):
-    file_name = '/home/pi/Documents/Python/marktplaats/' + item_name.replace(' ','_').lower() + '_response.csv'
+    pi_dir = '/home/pi/Documents/Python/marktplaats/'
+    mac_dir = ''
+    file_name = pi_dir + item_name.replace(' ','_').lower() + '_response.csv'
     items_df = get_items(query_url) # get items
     notify(items_df, file_name, item_name, chat_id) # mail new id's
     items_df.to_csv(file_name) # save csv
