@@ -17,6 +17,7 @@ if __name__ == "__main__":
     check('roei machine', '-382732462')
     check('roeibank', '-382732462')
     check('roei bank', '-382732462')
+    check('Go pro hero', '-449684046')
     #check('Sprinter rolstoel', '-449684046')
     #check('Sprinter rolstoelbus', '-449684046')
     #check('Sprinter invalidebus', '-449684046')
