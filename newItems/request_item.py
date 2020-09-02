@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from telegram_bot import telegram_send_text
 
-def get_items(query_url):
+def get_items(keyword, query_url):
     # get response
     response = urllib.request.urlopen(query_url)
     jresponse = json.load(response)
@@ -33,7 +33,7 @@ def get_items(query_url):
         else:
             print("All items filtered out. No relevant items left")
     else:
-        print("No items found")
+        print("No items found for keyword: " + str(keyword) )
     return df
 
 def notify(df, file_name, keyword, chat_id='-425371692'):
@@ -65,7 +65,9 @@ def check(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDesc
     #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
     file_name = dir + keyword.replace(' ','_').lower() + '_response.csv'
     query_url = url_gen(keyword, CategoryId, TitleAndDescription)
-    items_df = get_items(query_url) # get items
+    items_df = get_items(keyword, query_url) # get items
     notify(items_df, file_name, keyword, chat_id) # mail new id's
     items_df.to_csv(file_name) # save csv
     return
+
+check('roei bank')
