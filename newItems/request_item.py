@@ -69,5 +69,3 @@ def check(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDesc
     notify(items_df, file_name, keyword, chat_id) # mail new id's
     items_df.to_csv(file_name) # save csv
     return
-
-check('roei bank')
