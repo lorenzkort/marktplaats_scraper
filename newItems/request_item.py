@@ -27,6 +27,8 @@ def get_items(keyword, query_url):
         df = df[df['sellerId']!='25776758'] #filter out thD
         df = df[df['sellerId']!='40684643'] #filter out dlC
         df = df[df['sellerId']!='2085858'] #filter out Mike R
+        df = df[df['sellerId']!='19523430'] #filter out Techno Gym faillisement
+        df = df[df['sellerId']!='20558893'] #filter out  faillisement
         df = df[['id', 'url']]
         if len(df) > 5:
             pass
