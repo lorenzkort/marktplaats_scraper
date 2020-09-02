@@ -16,13 +16,24 @@ def get_items(query_url):
         items[index] = {
             'id': item['itemId'],
             'url': base_url + item['vipUrl'],
-            'type': item['priceInfo']['priceType']
+            'type': item['priceInfo']['priceType'],
+            'sellerId': str(item['sellerInformation']['sellerId'])
         }
 
     # edit dataframe
     df = pd.DataFrame(items)
-    df = df[df['type']!='RESERVED']
-    df = df[['id', 'url']]
+    if len(df) > 5: # check if dataframe is not empty
+        df = df[df['type']!='RESERVED']
+        df = df[df['sellerId']!='25776758'] #filter out thD
+        df = df[df['sellerId']!='40684643'] #filter out dlC
+        df = df[df['sellerId']!='2085858'] #filter out Mike R
+        df = df[['id', 'url']]
+        if len(df) > 5:
+            pass
+        else:
+            print("All items filtered out. No relevant items left")
+    else:
+        print("No items found")
     return df
 
 def notify(df, file_name, keyword, chat_id='-425371692'):
@@ -49,9 +60,10 @@ def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     return url
 
 def check(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDescription=False):
-    pi_dir = '/home/pi/Documents/Python/marktplaatsMaster/data/'
-    #mac_dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/'
-    file_name = pi_dir + keyword.replace(' ','_').lower() + '_response.csv'
+    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
+    #dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
+    #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
+    file_name = dir + keyword.replace(' ','_').lower() + '_response.csv'
     query_url = url_gen(keyword, CategoryId, TitleAndDescription)
     items_df = get_items(query_url) # get items
     notify(items_df, file_name, keyword, chat_id) # mail new id's
