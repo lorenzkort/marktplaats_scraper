@@ -33,7 +33,7 @@ def get_items(keyword, query_url):
         if len(df) > 5:
             pass
         else:
-            print("All items filtered out. No relevant items left")
+            print("All items filtered out. No relevant items left for keyword: " + str(keyword) )
     else:
         print("No items found for keyword: " + str(keyword) )
     return df
@@ -63,8 +63,8 @@ def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     return url
 
 def check(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDescription=False):
-    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
-    #dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
+    #dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
+    dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
     #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
     file_name = dir + keyword.replace(' ','_').lower() + '_response.csv'
     query_url = url_gen(keyword, CategoryId, TitleAndDescription)
