@@ -49,6 +49,7 @@ def notify(df, file_name, keyword, chat_id='-425371692'):
                 break
     return
 
+# generate url based on keyword, category ID, and Title and Description
 def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     if keyword != '':
         keyword = str(keyword).replace(' ', '%20')
@@ -68,6 +69,6 @@ def check(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDesc
     file_name = dir + keyword.replace(' ','_').lower() + '_response.csv'
     query_url = url_gen(keyword, CategoryId, TitleAndDescription)
     items_df = get_items(keyword, query_url) # get items
-    notify(items_df, file_name, keyword, chat_id) # mail new id's
+    notify(items_df, file_name, keyword, chat_id) # Send chat message with new id's
     items_df.to_csv(file_name) # save csv
     return
