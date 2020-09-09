@@ -1,8 +1,8 @@
 from request_item import check, url_gen
 
 if __name__ == "__main__":
-    check('Concept 2', '-425371692', TitleAndDescription=True)
-    check('Concept2','-425371692', TitleAndDescription=True)
+    check('Concept 2', '784', '-425371692', TitleAndDescription=True)
+    check('Concept2','784', '-425371692', TitleAndDescription=True)
     check('Marzocco', '-367307171')
     check('Anfim', '-367307171')
     check('Mahlkonig', '-367307171')
