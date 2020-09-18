@@ -1,19 +1,12 @@
-from request_item import check, url_gen
+from request_item import notify_concept2, notify_coffee
 from telegram_bot import telegram_send_text
-from log_file_handler import app_log
-import traceback
-
-# initialize log settings
+from log_file_handler import app_log # initialize log handling settings
+import traceback # get error explanation
 
 try:
     if __name__ == "__main__":
-        check('Concept 2', '-425371692', '784', TitleAndDescription=True)
-        check('Concept2','-425371692', '784',TitleAndDescription=True)
-        check('Marzocco', '-367307171')
-        check('Anfim', '-367307171')
-        check('Mahlkonig', '-367307171')
-        check('Mazzer','-367307171')
-        check('Fiorenzato', '-367307171')
+        notify_concept2()
+        notify_coffee()
         #check('Sprinter rolstoel', '-449684046')
         #check('Sprinter rolstoelbus', '-449684046')
         #check('Sprinter invalidebus', '-449684046')
