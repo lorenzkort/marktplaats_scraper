@@ -139,12 +139,12 @@ def send_message_per_item(df, chat_id='-425371692'):
 
 def notify_concept2(chat_id='-425371692'):
     item_list = [
-        check_new_items('concept 2', CategoryId='784', TitleAndDescription=False),
-        check_new_items('concept 2 model', CategoryId='', TitleAndDescription=False),
-        check_new_items('concept 2 model b', CategoryId='', TitleAndDescription=False),
-        check_new_items('concept 2 model c', CategoryId='', TitleAndDescription=False),
-        check_new_items('concept 2 model d', CategoryId='', TitleAndDescription=False),
-        check_new_items('concept 2 model e', CategoryId='', TitleAndDescription=False)
+        check_new_items('concept 2', CategoryId='784'),
+        check_new_items('concept 2 model'),
+        check_new_items('concept 2 model b'),
+        check_new_items('concept 2 model c'),
+        check_new_items('concept 2 model d'),
+        check_new_items('concept 2 model e')
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
@@ -152,11 +152,11 @@ def notify_concept2(chat_id='-425371692'):
 
 def notify_coffee(chat_id='-367307171'):
     item_list = [
-        check_new_items('Marzocco', CategoryId='', TitleAndDescription=False),
-        check_new_items('Anfim', CategoryId='', TitleAndDescription=False),
-        check_new_items('Mahlkonig', CategoryId='', TitleAndDescription=False),
-        check_new_items('Mazzer', CategoryId='', TitleAndDescription=False),
-        check_new_items('Fiorenzato', CategoryId='', TitleAndDescription=False),
+        check_new_items('Marzocco'),
+        check_new_items('Anfim'),
+        check_new_items('Mahlkonig'),
+        check_new_items('Mazzer'),
+        check_new_items('Fiorenzato')
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
@@ -164,8 +164,8 @@ def notify_coffee(chat_id='-367307171'):
 
 def notify_fietsen(chat_id='-482088244'):
     item_list = [
-        check_new_items('Van Moof', CategoryId='', TitleAndDescription=False),
-        check_new_items('Van Moof S2', CategoryId='', TitleAndDescription=False)
+        check_new_items('Van Moof'),
+        check_new_items('Van Moof S2')
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
