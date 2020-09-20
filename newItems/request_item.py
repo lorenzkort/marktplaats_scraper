@@ -170,5 +170,3 @@ def notify_fietsen(chat_id='-482088244'):
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
     return
-
-notify_fietsen()
