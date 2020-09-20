@@ -161,3 +161,14 @@ def notify_coffee(chat_id='-367307171'):
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
     return
+
+def notify_fietsen(chat_id='-482088244'):
+    item_list = [
+        check_new_items('Van Moof', CategoryId='', TitleAndDescription=False),
+        check_new_items('Van Moof S2', CategoryId='', TitleAndDescription=False)
+    ]
+    new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
+    send_message_per_item(df=new_items, chat_id=chat_id)
+    return
+
+notify_fietsen()
