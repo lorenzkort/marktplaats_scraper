@@ -140,6 +140,12 @@ def send_message_per_item(df, chat_id='-425371692'):
 def notify_concept2(chat_id='-425371692'):
     item_list = [
         check_new_items('concept 2', CategoryId='784'),
+        check_new_items('concept 2 roeitrainer'),
+        check_new_items('concept 2 roeimachine'),
+        check_new_items('concept 2 roeiapparaat'),
+        check_new_items('concept 2 ergometer'),
+        check_new_items('concept 2 ergometer'),
+        check_new_items('concept 2 roei'),
         check_new_items('concept 2 model'),
         check_new_items('concept 2 model b'),
         check_new_items('concept 2 model c'),
