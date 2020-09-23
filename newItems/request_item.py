@@ -146,6 +146,8 @@ def notify_concept2(chat_id='-425371692'):
         check_new_items('concept 2 ergometer'),
         check_new_items('concept 2 ergometer'),
         check_new_items('concept 2 roei'),
+        check_new_items('concept 2 roeier'),
+        check_new_items('concept 2 roeiertrainer'),
         check_new_items('concept 2 model'),
         check_new_items('concept 2 model b'),
         check_new_items('concept 2 model c'),
