@@ -44,7 +44,7 @@ def get_items(keyword, query_url):
         items[index] = {
             'id': item['itemId'],
             'title': item['title'],
-            'description': item['description'],
+            #'description': item['description'], #giving errors with comma's in description
             'url': base_url + item['vipUrl'],
             'bidType': item['priceInfo']['priceType'],
             'price': price,
