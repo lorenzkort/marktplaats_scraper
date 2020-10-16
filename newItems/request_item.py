@@ -101,8 +101,8 @@ def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     return url
 
 def check_new_items(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDescription=False):
-    #dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
-    dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
+    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
+    #dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
     #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
     
     # create filename and base url
