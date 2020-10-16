@@ -1,15 +1,18 @@
-import urllib.request
+import requests
 import json
 import pandas as pd
 from telegram_bot import telegram_send_text
 import copy
+from datetime import datetime, timedelta
+import time
+from request import get_request
+now = datetime.utcnow() + timedelta(hours=2)
 
 # gets all items from an API-url with the paired keyword
 def get_items(keyword, query_url):
     # get listings from Marktplaats API
-    response = urllib.request.urlopen(query_url)
-    jresponse = json.load(response)
-    items = jresponse["listings"]
+    response = get_request(query_url)
+    items = response.json()["listings"]
 
     # set base url from Marktplaats
     print('Before importing: ',len(items))
@@ -98,8 +101,8 @@ def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     return url
 
 def check_new_items(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDescription=False):
-    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
-    #dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
+    #dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
+    dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
     #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
     
     # create filename and base url
