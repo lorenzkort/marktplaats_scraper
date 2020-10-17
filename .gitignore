@@ -3,3 +3,4 @@ data
 geckodriver.log
 main_app.log
 test
+newItems/run_log.csv
