@@ -49,10 +49,10 @@ def plt_type_av(df, window):
     plt.show()
     return
 
-
 def plt_moving_av(df):
     df = parse(df)
     df = add_col_type(df)
+    df = df[df['type'].isin(['B','C','D','E'])]
     df = df[['price', 'date']]
 
     df['20d'] = df['price'].rolling(window=20).mean()
@@ -63,8 +63,7 @@ def plt_moving_av(df):
     plt.show()
     return
 
-#plt_moving_av(df)
-
-df = plt_type_av(df, window=3)
+plt_type_av(df, window=3)
+plt_moving_av(df)
 
 print(df)
