@@ -14,4 +14,4 @@ def get_request(query_url):
 
 if __name__ == "__main__":
     r = get_request('https://www.marktplaats.nl/lrp/api/search?l1CategoryId=784&limit=100&offset=0&postcode=2012EG&query=concept%202&sortBy=SORT_INDEX&sortOrder=DECREASING')
-    print(r.json())
+    #print(r.json())
