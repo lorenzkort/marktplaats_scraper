@@ -121,10 +121,17 @@ def check_new_items(keyword='concept 2', chat_id='-425371692', CategoryId='', Ti
             break
     
     # merge all items from all searched pages        
-    items_df = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
+    try:
+        items_df = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
+    except:
+        items_df = pd.DataFrame()
 
     # check which urls are new compared to old file
-    new_items = get_new_items(items_df, file_name, keyword) 
+    try:    
+        new_items = get_new_items(items_df, file_name, keyword)
+    except:
+        new_items = pd.DataFrame()
+    
     items_df.to_csv(file_name) # save new response to csv
     return new_items
 
