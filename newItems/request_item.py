@@ -1,12 +1,22 @@
+import os
+import copy
+from datetime import datetime, timedelta
+import time
 import requests
 import json
 import pandas as pd
 from telegram_bot import telegram_send_text
-import copy
-from datetime import datetime, timedelta
-import time
 from request import get_request
 now = datetime.utcnow() + timedelta(hours=2)
+
+# Change dir name based on operating system
+dir_name = os.uname()[0]
+if dir_name == 'Darwin':
+    dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
+elif dir_name == 'Linux':
+    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #Raspberry Pi
+else:
+    dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
 
 # gets all items from an API-url with the paired keyword
 def get_items(keyword, query_url):
@@ -47,7 +57,6 @@ def get_items(keyword, query_url):
         items[index] = {
             'id': item['itemId'],
             'title': item['title'],
-            #'description': item['description'], #giving errors with comma's in description
             'url': base_url + item['vipUrl'],
             'bidType': item['priceInfo']['priceType'],
             'price': price,
@@ -101,10 +110,6 @@ def url_gen(keyword='', CategoryId='', TitleAndDescription=False):
     return url
 
 def check_new_items(keyword='concept 2', chat_id='-425371692', CategoryId='', TitleAndDescription=False):
-    dir = '/home/pi/Documents/Python/marktplaatsMaster/data/' #pi
-    #dir = '/Users/lorenzkort/Documents/Python/marktplaatsMaster/data/' #mac
-    #dir = '/Users/LorenzKort/OneDrive - ITDS Groep B.V/Documenten/GitHub/marktplaats/data/' #windows
-    
     # create filename and base url
     file_name = dir + keyword.replace(' ','_').lower() + '_response.csv'
     query_url = url_gen(keyword, CategoryId, TitleAndDescription)
@@ -162,28 +167,49 @@ def notify_concept2(chat_id='-425371692'):
         check_new_items('concept 2 model b'),
         check_new_items('concept 2 model c'),
         check_new_items('concept 2 model d'),
-        check_new_items('concept 2 model e')
-    ]
-    new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
-    send_message_per_item(df=new_items, chat_id=chat_id)
-    return
-
-def notify_coffee(chat_id='-367307171'):
-    item_list = [
-        check_new_items('Marzocco'),
-        check_new_items('Anfim'),
-        check_new_items('Mahlkonig'),
-        check_new_items('Mazzer'),
-        check_new_items('Fiorenzato')
-    ]
-    new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
-    send_message_per_item(df=new_items, chat_id=chat_id)
-    return
-
-def notify_fietsen(chat_id='-482088244'):
-    item_list = [
-        check_new_items('Van Moof'),
-        check_new_items('Van Moof S2')
+        check_new_items('concept 2 model e'),
+        check_new_items('concept II', CategoryId='784'),
+        check_new_items('concept II roeitrainer'),
+        check_new_items('concept II roeimachine'),
+        check_new_items('concept II roeiapparaat'),
+        check_new_items('concept II ergometer'),
+        check_new_items('concept II ergometer'),
+        check_new_items('concept II roei'),
+        check_new_items('concept II roeier'),
+        check_new_items('concept II roeiertrainer'),
+        check_new_items('concept II model'),
+        check_new_items('concept II model b'),
+        check_new_items('concept II model c'),
+        check_new_items('concept II model d'),
+        check_new_items('concept II model e'),
+        check_new_items('concept2', CategoryId='784'),
+        check_new_items('concept2 roeitrainer'),
+        check_new_items('concept2 roeimachine'),
+        check_new_items('concept2 roeiapparaat'),
+        check_new_items('concept2 ergometer'),
+        check_new_items('concept2 ergometer'),
+        check_new_items('concept2 roei'),
+        check_new_items('concept2 roeier'),
+        check_new_items('concept2 roeiertrainer'),
+        check_new_items('concept2 model'),
+        check_new_items('concept2 model b'),
+        check_new_items('concept2 model c'),
+        check_new_items('concept2 model d'),
+        check_new_items('concept2 model e'),
+        check_new_items('conceptII', CategoryId='784'),
+        check_new_items('conceptII roeitrainer'),
+        check_new_items('conceptII roeimachine'),
+        check_new_items('conceptII roeiapparaat'),
+        check_new_items('conceptII ergometer'),
+        check_new_items('conceptII ergometer'),
+        check_new_items('conceptII roei'),
+        check_new_items('conceptII roeier'),
+        check_new_items('conceptII roeiertrainer'),
+        check_new_items('conceptII model'),
+        check_new_items('conceptII model b'),
+        check_new_items('conceptII model c'),
+        check_new_items('conceptII model d'),
+        check_new_items('conceptII model e')
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
