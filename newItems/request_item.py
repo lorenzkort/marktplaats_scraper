@@ -2,11 +2,13 @@ import os
 import copy
 from datetime import datetime, timedelta
 import time
+import unicodedata
 import requests
 import json
 import pandas as pd
 from telegram_bot import telegram_send_text
 from request import get_request
+
 now = datetime.utcnow() + timedelta(hours=2)
 
 # Change dir name based on operating system
@@ -144,8 +146,8 @@ def send_message_per_item(df, chat_id='-425371692'):
     if len(df) > 0:
         for index, row in df.iterrows():
             message = """
-            '{}' \n €{} | {} KM | {} \n {}
-            """.format(row['title'], row['price'], row['distance'], row['city'], row['url'])
+            '{}' \n {}{} | {} KM | {} \n {}
+            """.format(row['title'], unicodedata.lookup("EURO SIGN"),row['price'], row['distance'], row['city'], row['url'])
             print(message)
             telegram_send_text(bot_message=message, chat_id=chat_id)
     else:
