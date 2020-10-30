@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+from scipy.interpolate import interp1d
 
 df = pd.read_csv('messages.csv', index_col=0)
 
@@ -63,7 +65,25 @@ def plt_moving_av(df):
     plt.show()
     return
 
-plt_type_av(df, window=3)
-plt_moving_av(df)
+def plt_smooth(df):
+    df = parse(df)
+    df = add_col_type(df)
+    df = df[df['type'].isin(['B','C','D','E'])]
+    df = df[['price', 'date']]
+    df['20d'] = df['price'].rolling(window=20).mean()
+    x = df['20d']
+    y = df.date
+
+    f = interp1d(x, y, kind='quadratic')
+
+    xnew = np.linspace(0, 100, num=1000, endpoint=True)
+    plt.plot(x, y, 'o')
+    plt.plot(xnew, f(xnew))
+    plt.show()
+    return
+
+#plt_type_av(df, window=3)
+#plt_moving_av(df)
+plt_smooth(df)
 
 print(df)

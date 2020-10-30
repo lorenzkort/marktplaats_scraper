@@ -1,278 +1,354 @@
 ,title,price,distance,city,date
-0,'Concept 2 Model D PM4',NaN,49.0,IJsselstein,2020-10-25 22:03:10+00:00
-1,"'concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-25 22:03:10+00:00
-2,'Concept 2 model E met Pm4 in Perfecte Staat!',950.0,45.0,Rijswijk,2020-10-25 22:03:10+00:00
-3,'Concept 2 Model D PM5 Roeimachine / Ergometer',750.0,1.0,Haarlem,2020-10-25 22:03:09+00:00
-4,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-25 22:03:09+00:00
-5,'Concept 2 Model D PM4',NaN,49.0,IJsselstein,2020-10-25 22:00:17+00:00
-6,"'concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-25 22:00:17+00:00
-7,'Concept 2 model E met Pm4 in Perfecte Staat!',950.0,45.0,Rijswijk,2020-10-25 22:00:17+00:00
-8,'Concept 2 Model D PM5 Roeimachine / Ergometer',750.0,1.0,Haarlem,2020-10-25 22:00:17+00:00
-9,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-25 22:00:17+00:00
-10,'Concept 2 roeier incl antislip mat.',NaN,91.0,Apeldoorn,2020-10-19 17:48:31+00:00
-11,'concept2 Dyno met Force hometrainer krachttraining fittness',575.0,64.0,Dordrecht,2020-10-19 16:45:25+00:00
-12,'Concept 2 Indoor Rower (roeitrainer)',550.0,83.0,Lith,2020-10-19 15:13:25+00:00
-13,'Concept 2 Indoor Rower (roeitrainer)',550.0,83.0,Lith,2020-10-19 15:12:25+00:00
-14,'Concept2 pm2 monitor',NaN,63.0,Dordrecht,2020-10-19 13:25:26+00:00
-15,'Roeitrainer Concept 2 Model D met PM 3 monitor',650.0,118.0,Bladel,2020-10-19 10:52:24+00:00
-16,'Concept 2 Model D te koop (roeitrainer)',750.0,0,Haarlem,2020-10-19 10:32:25+00:00
-17,'Concept 2 in zeer goede staat.',625.0,98.0,Gemonde,2020-10-19 10:15:24+00:00
-18,'Roeitrainer CONCEPT 2 met PM3 DISPLAY',599.0,74.0,De Klomp,2020-10-18 17:25:28+00:00
-19,'Concept 2 model D roeitrainer',800.0,52.0,Rotterdam,2020-10-18 16:58:25+00:00
-20,'Roei trainer / roeiapparaat Concept 2',600.0,16.0,Amsterdam,2020-10-18 15:25:23+00:00
-21,'Indoor Rower Antislop mat (Concept2)',20.0,88.0,Oudenbosch,2020-10-18 13:26:22+00:00
-22,'Indoor Rower Antislop mat (Concept2)',20.0,88.0,Oudenbosch,2020-10-18 13:25:22+00:00
-23,'Concept 2 model D PM3 roeimachine',NaN,51.0,Rotterdam,2020-10-18 12:18:24+00:00
-24,"'Roeimachine Concept 2, professioneel, zwarte uitvoering'",NaN,38.0,Spierdijk,2020-10-18 12:05:25+00:00
-25,"'Roeimachine Concept 2, professioneel, zwarte uitvoering'",NaN,38.0,Spierdijk,2020-10-18 12:04:26+00:00
-26,'Concept 2 roeimachine',50.0,98.0,Zwolle,2020-10-18 11:08:24+00:00
-27,'Prima werkende Concept 2 Roeier (PM3)',30.0,50.0,Rotterdam,2020-10-18 10:59:24+00:00
-28,'Roeitrainer concept 2',75.0,161.0,Roermond,2020-10-18 10:23:24+00:00
-29,'ZGAN ROEITRAINER CONCEPT 2 model D (zwart) met PM5 DISPLAY',1050.0,46.0,Delft,2020-10-17 15:59:22+00:00
-30,'ZGAN ROEITRAINER CONCEPT 2 model D (zwart) met PM5 DISPLAY',1050.0,46.0,Delft,2020-10-17 15:58:22+00:00
-31,'Concept 2 model D pm3 roeitrainer.',700.0,22.0,Den Ilp,2020-10-17 13:36:22+00:00
-32,'Roeitrainer CONCEPT 2 zgan',550.0,74.0,De Klomp,2020-10-17 13:23:22+00:00
-33,'concept 2 roeier',NaN,38.0,Almere,2020-10-17 13:18:23+00:00
-34,'ROEITRAINER D PM5 CONCEPT 2',700.0,16.0,Assendelft,2020-10-17 12:21:22+00:00
-35,'Concept 2 model B roeitrainer met PM3 (geüpgraded)',NaN,65.0,Den Helder,2020-10-16 23:06:20+00:00
-36,'Concept 2 model C   roeiertrainer',NaN,94.0,Tilburg,2020-10-16 23:06:14+00:00
-37,'Concept 2 model C roeitrainer te koop!',550.0,0,Haarlem,2020-10-16 23:06:14+00:00
-38,'Concept 2 Model C roeitrainer',550.0,3.0,Heemstede,2020-10-16 23:06:14+00:00
-39,"'Concept 2 model D pm5, roeitrainer nieuw in doos'",1100.0,104.0,Deventer,2020-10-16 23:06:13+00:00
-40,'Concept 2 Ergometer Model D',NaN,86.0,Rosmalen,2020-10-16 23:06:13+00:00
-41,'Concept 2 roeimachine model D PM3',800.0,33.0,Volendam,2020-10-16 23:06:06+00:00
-42,'Concept 2 model C',NaN,166.0,Winsum,2020-10-16 23:06:06+00:00
-43,'Concept 2 model C',NaN,146.0,Leek,2020-10-16 23:06:06+00:00
-44,'Concept 2 roeitrainer model d pm3',NaN,37.0,Woerden,2020-10-16 23:06:06+00:00
-45,'Concept 2 model C met PM2 monitor roeitrainer',575.0,157.0,Emmen,2020-10-16 23:06:06+00:00
-46,"'Roeitrainer Concept 2 Mod D met Pm5 monitor, perfecte staat'",875.0,32.0,Boskoop,2020-10-16 21:06:18+00:00
-47,'Concept 2 model C met PM2 monitor roeitrainer',575.0,157.0,Emmen,2020-10-16 21:06:18+00:00
-48,'Concept2 Model D Pm5 in nieuwstaat',875.0,32.0,Boskoop,2020-10-16 19:02:20+00:00
-49,'Concept 2 roeitrainer model d pm3',750.0,37.0,Woerden,2020-10-16 15:56:16+00:00
-50,'Zeer complete Concept 2 model D ergometer/indoor rower',700.0,109.0,Deventer,2020-10-15 19:16:19+00:00
-51,'concept 2',NaN,134.0,Varsseveld,2020-10-15 12:02:16+00:00
-52,'Concept 2 model C',NaN,146.0,Leek,2020-10-15 06:52:16+00:00
-53,'Concept 2 roeitrainer / roeimachine / roerapparaat',NaN,90.0,Breda,2020-10-14 21:34:16+00:00
-54,'roeitrainer concept 2 D PM3',500.0,161.0,Roermond,2020-10-14 14:20:18+00:00
-55,'Concept 2 logcard',10.0,60.0,Rhoon,2020-10-14 13:18:19+00:00
-56,'roeitrainer concept 2 D PM3',500.0,161.0,Roermond,2020-10-14 12:16:17+00:00
-57,'Concept 2 model C',600.0,166.0,Winsum,2020-10-14 10:12:16+00:00
-58,'Concept2 model D',NaN,44.0,Berkel en Rodenrijs,2020-10-14 09:10:17+00:00
-59,'Concept2 PM2 werkende losse monitor',65.0,17.0,Amsterdam,2020-10-13 17:40:19+00:00
-60,'Concept2 Model D PM5 Zwart',1000.0,41.0,Hilversum,2020-10-13 17:40:19+00:00
-61,'Concept 2 model D/ PM5    Nieuwstaat!',925.0,45.0,Rijswijk,2020-10-13 15:36:17+00:00
-62,'Concept2 Model D PM5 roeitrainer',850.0,93.0,Apeldoorn,2020-10-13 14:34:17+00:00
-63,'Concept 2 roeimachine model D PM3',800.0,33.0,Volendam,2020-10-13 13:32:17+00:00
-64,'Concept 2 met pm5 zeer mooi',875.0,98.0,Gemonde,2020-10-13 10:26:17+00:00
-65,'Concept 2 model C',NaN,146.0,Leek,2020-10-13 06:18:16+00:00
-66,'Concept 2 model C',NaN,146.0,Leek,2020-10-12 21:00:20+00:00
-67,'Concept2 PM3 werkende losse monitor',50.0,17.0,Amsterdam,2020-10-12 19:58:18+00:00
-68,'Concept 2 model D met PM5 in Perfecte Staat',950.0,40.0,Nootdorp,2020-10-12 18:56:20+00:00
-69,'Concept 2 - indoor Roeimachine',750.0,106.0,Langenboom,2020-10-12 18:56:20+00:00
-70,'concept 2',NaN,146.0,Leek,2020-10-12 17:54:18+00:00
-71,'Concept 2 Ergometer Model D',650.0,86.0,Rosmalen,2020-10-12 15:50:48+00:00
-72,'Roeier concept2',625.0,85.0,Dongen,2020-10-12 15:50:48+00:00
-73,'Concept2 Roeimachine',NaN,64.0,Woudenberg,2020-10-12 15:50:48+00:00
-74,'Concept2 PM 4 roeitrainer roeiapparaat roeier roeien',NaN,64.0,Dordrecht,2020-10-12 15:50:47+00:00
-75,'Concept 2 model c',NaN,146.0,Leek,2020-10-12 15:50:44+00:00
-76,'Roeitrainer CONCEPT 2 MODEL D MET PM4 DISPLAY//ZGAN',749.0,74.0,Veenendaal,2020-10-12 15:50:44+00:00
-77,'Concept 2 roeier incl anti slipmat.',NaN,91.0,Apeldoorn,2020-10-12 15:50:44+00:00
-78,'Concept 2 Roeitrainer in prima conditie - Coronaproof traine',525.0,123.0,Lemele,2020-10-12 15:50:43+00:00
-79,'Concept2 model d pm5 grijs',900.0,51.0,De Lier,2020-10-12 15:50:43+00:00
-80,'Concept 2 roeitrainer model D PM4',800.0,45.0,Utrecht,2020-10-11 15:43:19+00:00
-81,'Concept 2 Bike Erg',1000.0,42.0,Hoorn,2020-10-11 14:41:23+00:00
-82,'Concept 2 monitor (defect)',NaN,146.0,Leek,2020-10-11 14:41:23+00:00
-83,'Concept 2 model D (superstaat!!)',NaN,146.0,Leek,2020-10-11 13:39:18+00:00
-84,'Concept2 PM5 roeitrainer',750.0,62.0,Sliedrecht,2020-10-11 12:37:19+00:00
-85,'Concept 2 indoor Roeiapparaat model D PM3',450.0,160.0,Groningen,2020-10-11 11:35:19+00:00
-86,'Zitkussen en smartphonehouder voor concept2 roeiapparaat',NaN,51.0,De Lier,2020-10-11 09:31:18+00:00
-87,'Roeimachine concept2',NaN,17.0,Amstelveen,2020-10-11 09:31:18+00:00
-88,'Concept 2 nieuwstaat',650.0,107.0,Sint-Oedenrode,2020-10-11 08:29:18+00:00
-89,"'Ergometer / roeitrainer Concept 2 Model D, zwart, zgan'",850.0,116.0,Laag-Keppel,2020-10-10 18:01:20+00:00
-90,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-10-10 14:55:24+00:00
-91,"'Concept 2 roeimachine, model D met PM4 scherm'",NaN,54.0,Amersfoort,2020-10-10 13:53:19+00:00
-92,'Concept2 Type D Indoor Rower PM3 roeitrainer',599.0,104.0,Deventer,2020-10-10 12:51:17+00:00
-93,'Concept 2 Ergometer Model D',650.0,15.0,Amsterdam,2020-10-10 12:51:17+00:00
-94,'Concept 2 pm3  roeier.',NaN,22.0,Den Ilp,2020-10-10 11:49:17+00:00
-95,'Concept2 roeier model C PM2',600.0,39.0,Nootdorp,2020-10-10 11:49:17+00:00
-96,'Concept2 Type D/E Indoor Rower PM3 roeitrainer',599.0,104.0,Deventer,2020-10-10 11:49:17+00:00
-97,"'Concept 2, model E met PM4'",800.0,111.0,Staphorst,2020-10-10 09:45:18+00:00
-98,'Concept2 Roeitrainer Model C (defecte display)',400.0,22.0,Amsterdam,2020-10-09 22:23:16+00:00
-99,'Concept2 model d pm5',900.0,51.0,De Lier,2020-10-09 21:21:17+00:00
-100,'Concept 2 indoor roeiapparaat',NaN,103.0,Bergen op Zoom,2020-10-09 19:17:18+00:00
-101,"'Concept 2 roeitrainer, model E, display PM4'",NaN,67.0,Harderwijk,2020-10-09 14:07:19+00:00
-102,"'Concept 2 model D pm5, roeitrainer nieuw in doos'",1100.0,104.0,Deventer,2020-10-09 14:07:19+00:00
-103,'Roeitrainer concept2 Indoor Rower',500.0,19.0,Amsterdam,2020-10-09 11:56:18+00:00
-104,'Concept 2 roeimachine Model D met PM5',800.0,17.0,Amsterdam,2020-10-09 11:56:18+00:00
-105,'Roeimachine Concept 2',575.0,110.0,Erp,2020-10-09 11:56:18+00:00
-106,'Concept 2 Model E met Pm4 Scherm',800.0,99.0,Goirle,2020-10-09 10:52:18+00:00
-107,'Nieuwe roeier Concept 2 model D met PM5',1250.0,46.0,Delft,2020-10-09 07:45:15+00:00
-108,'Concept 2 PM2 ZEER GOEDE STAAT',600.0,81.0,Zevenbergen,2020-10-08 19:21:19+00:00
-109,'Concept 2 model D indoor Rower PM3 gereserveerd tot vr mid',800.0,64.0,Putten,2020-10-08 16:15:17+00:00
-110,'CONCEPT 2 ROEITRAINER',NaN,172.0,Stitswerd,2020-10-08 11:01:17+00:00
-111,"'NIEUWSTAAT! Roeimachine Concept 2 model D, PM5'",1050.0,182.0,Meerssen,2020-10-07 20:24:18+00:00
-112,'Concept 2 model D met PM3',750.0,102.0,Zwartsluis,2020-10-07 12:46:17+00:00
-113,'Concept 2 model E/ PM5  In Splinternieuwe Staat',1175.0,45.0,Rijswijk,2020-10-07 12:36:19+00:00
-114,'Concept 2 model C',575.0,107.0,Sint-Oedenrode,2020-10-07 11:11:16+00:00
-115,'Concept 2 model D indoor Rower PM3',800.0,64.0,Putten,2020-10-07 09:15:18+00:00
-116,'Concept 2 sensor   Sensorhuis voor PM aansturing',NaN,40.0,Nootdorp,2020-10-07 06:56:18+00:00
-117,'Concept 2 PM3 monitor met hartslag sensor',NaN,40.0,Nootdorp,2020-10-07 05:53:16+00:00
-118,'Professionele roeitrainer commercial line Concept 2 Proteus',500.0,82.0,Hedel,2020-10-06 21:06:16+00:00
-119,'Indoor roeitrainer Concept 2 model D met PM4 computer',NaN,20.0,Amsterdam,2020-10-06 21:06:16+00:00
-120,'Concept 2 PM3 monitor',NaN,40.0,Nootdorp,2020-10-06 20:13:17+00:00
-121,'Concept2 Model D PM5 roei trainer machine',700.0,95.0,Arnhem,2020-10-06 18:27:19+00:00
-122,'Concept2 Model D PM5',700.0,95.0,Arnhem,2020-10-06 18:17:18+00:00
-123,'Concept 2 Model E met Pm4 Scherm',800.0,99.0,Goirle,2020-10-06 16:17:17+00:00
-124,'Concept 2 model D PM3 roeitrainer',600.0,58.0,Breezand,2020-10-06 14:52:19+00:00
-125,'Concept2 roeier model c PM4',600.0,12.0,Nieuw-Vennep,2020-10-06 14:21:17+00:00
-126,'Roeitrainer concept 2',NaN,74.0,Aalst,2020-10-06 13:39:17+00:00
-127,'Concept2 roei ergometer',450.0,43.0,De Meern,2020-10-06 12:55:16+00:00
-128,'Concept 2 roeitrainer PM2',200.0,28.0,Voorschoten,2020-10-06 09:08:16+00:00
-129,'Roeimachine Concept 2 model D',550.0,66.0,Harderwijk,2020-10-06 08:16:17+00:00
-130,'Concept 2 roeier',NaN,91.0,Apeldoorn,2020-10-06 05:57:16+00:00
-131,'Nieuw Concept 2 Model D Indoor Rower PM5',1000.0,40.0,'s-Gravenhage,2020-10-05 19:20:20+00:00
-132,"'Concept 2 model D, PM 3 display'",750.0,2.0,Heemstede,2020-10-05 15:17:17+00:00
-133,'Concept2  roeimachine model PM4 2x',600.0,47.0,Bilthoven,2020-10-05 14:29:17+00:00
-134,'Concept2 model E PM5',800.0,26.0,Amsterdam,2020-10-05 10:49:18+00:00
-135,'Concept2 model D PM5',800.0,26.0,Amsterdam,2020-10-05 10:26:17+00:00
-136,'Concept2 model D PM5',800.0,26.0,Amsterdam,2020-10-05 10:25:19+00:00
-137,'Concept 2 conceot2 roeier model d pm5',750.0,65.0,Dordrecht,2020-10-05 06:23:16+00:00
-138,'Concept 2 row',750.0,105.0,Veghel,2020-10-05 05:34:16+00:00
-139,'Concept 2 Model D PM3 Roeitrainer',900.0,2.0,Heemstede,2020-10-04 20:00:19+00:00
-140,'concept 2 roeier rower roeiapparaat roeimachine',NaN,63.0,Zwijndrecht,2020-10-04 16:40:19+00:00
-141,'Concept 2 Model C roeitrainer',550.0,3.0,Heemstede,2020-10-04 16:29:18+00:00
-142,'Concept2 roeier model C PM2',600.0,39.0,Nootdorp,2020-10-04 14:57:16+00:00
-143,"'Concept 2 Roeitrainer Model D PM5, inclusief accessoires'",850.0,108.0,Best,2020-10-04 14:26:17+00:00
-144,"'Concept 2 Roeitrainer Model D PM5, inclusief accessoires'",850.0,108.0,Best,2020-10-04 14:25:17+00:00
-145,'Roeitrainer Concept 2 Model B.',250.0,59.0,Rhoon,2020-10-04 12:22:18+00:00
-146,'Concept 2 PM3 display roeimachine rowing machine indoor',600.0,22.0,Amsterdam,2020-10-04 11:40:19+00:00
-147,'Concept 2 PM3 display roeimachine rowing machine indoor',600.0,22.0,Amsterdam,2020-10-04 11:39:17+00:00
-148,'Concept 2 Model C Roeitrainer PM2',500.0,55.0,Rotterdam,2020-10-04 10:26:25+00:00
-149,'Concept 2 Model E met PM 5 display zo goed als nieuw',1000.0,41.0,Vleuten,2020-10-04 09:55:18+00:00
-150,'Concept 2 Roeitrainer Model C Met Pm2 Scherm',550.0,99.0,Goirle,2020-10-04 07:50:56+00:00
-151,'concept 2 model D',NaN,17.0,Weteringbrug,2020-10-04 07:50:50+00:00
-152,'Spm2 voor concept 2',NaN,84.0,Breda,2020-10-04 07:50:50+00:00
-153,"'Concept 2 roeitrainer, met Pm2 display, in zeer goede staat'",700.0,91.0,Rosmalen,2020-10-04 07:50:50+00:00
-154,'Roeitrainer CONCEPT 2 MODEL D met PM3 DISPLAY',675.0,73.0,Veenendaal,2020-10-04 07:50:49+00:00
-155,'Concept 2 roeimachine',250.0,76.0,Veenendaal,2020-10-04 07:50:49+00:00
-156,'Concept 2 roeier model E pm4 display monitor',NaN,166.0,Hoogezand,2020-10-02 08:59:18+00:00
-157,'Concept 2 roeier model E pm4 display monitor',NaN,166.0,Hoogezand,2020-10-02 08:58:16+00:00
-158,'Concept 2 Model D Roeitrainer met PM3',800.0,0,Haarlem,2020-10-01 16:56:42+00:00
-159,"'Onbeschadigde Roeimachine, Concept 2, Model D, PM3 monitor.'",550.0,54.0,Vianen,2020-10-01 12:53:17+00:00
-160,'ZGAN roeier Concept 2 model D met PM5',1250.0,46.0,Delft,2020-10-01 10:17:17+00:00
-161,'Concept 2 Roeimachine model C uitmuntende staat',550.0,78.0,Nunspeet,2020-09-30 19:04:20+00:00
-162,'Concept 2 Roeimachine',550.0,78.0,Nunspeet,2020-09-30 18:17:18+00:00
-163,'Roeitrainer Concept 2 model D PM5',850.0,41.0,Hilversum,2020-09-30 16:31:22+00:00
-164,'Concept 2 Roei Apparaat',NaN,39.0,Harmelen,2020-09-30 14:11:17+00:00
-165,'Concept2 Roeitrainer',450.0,50.0,Bosch en Duin,2020-09-30 13:48:17+00:00
-166,'Concept 2 roeitrainer Nieuw model D',1950.0,91.0,'s-Hertogenbosch,2020-09-30 12:20:18+00:00
-167,'Concept 2 Roeitrainer Model C Met Pm3 Scherm',550.0,99.0,Goirle,2020-09-29 17:14:18+00:00
-168,'Roeimachine Concept 2 zwart',600.0,52.0,Lekkerkerk,2020-09-29 13:20:17+00:00
-169,'Roeitrainer CONCEPT 2',675.0,74.0,Veenendaal,2020-09-29 12:05:16+00:00
-170,'Roeimachine Concept 2 model D',NaN,23.0,Leiden,2020-09-29 09:39:16+00:00
-171,'Concept 2 roei trainer model D pm4',700.0,68.0,Harderwijk,2020-09-28 21:29:16+00:00
-172,'Concept2 model C roeitrainer met PM2',500.0,75.0,Hulshorst,2020-09-28 12:57:17+00:00
-173,'Concept 2 model B roeitrainer',300.0,39.0,'s-Gravenhage,2020-09-28 12:31:16+00:00
-174,"'Concept 2 roeier model E, PM5'",NaN,53.0,Medemblik,2020-09-28 12:16:16+00:00
-175,'Concept 2 roeimachine roeitrainer PM4 computer',700.0,43.0,Utrecht,2020-09-28 11:55:17+00:00
-176,'Concept 2 model E roeitrainer met PM4',750.0,0,Haarlem,2020-09-28 11:32:17+00:00
-177,'Roeimachine concept 2.  In zeer goede staat',475.0,127.0,Nijega,2020-09-28 10:19:17+00:00
-178,'Concept 2 roeimachine PM4 computer',NaN,43.0,Utrecht,2020-09-28 10:13:16+00:00
-179,'Concept 2 roeimachine PM4 computer',NaN,43.0,Utrecht,2020-09-28 10:11:16+00:00
-180,'Concept 2 roeimachine PM3 computer',NaN,43.0,Utrecht,2020-09-28 10:09:17+00:00
-181,'Concept 2 model D roeimachine zwart',950.0,18.0,Sassenheim,2020-09-28 08:49:18+00:00
-182,'Concept 2 roeimachine met PM4 computer',700.0,108.0,Wanneperveen,2020-09-28 07:59:15+00:00
-183,'Concept 2 model C roeier - zo goed als nieuw',NaN,18.0,Wormerveer,2020-09-28 06:43:21+00:00
-184,'Concept 2 model C roeier - zo goed al nieuw',NaN,18.0,Wormerveer,2020-09-28 06:42:15+00:00
-185,'Concept 2 Model C',600.0,3.0,Heemstede,2020-09-27 21:13:16+00:00
-186,'Concept 2 roei ergometer model D',700.0,26.0,Leiden,2020-09-27 18:58:18+00:00
-187,'Concept 2 roei ergometer model D',700.0,26.0,Leiden,2020-09-27 18:57:20+00:00
-188,"'Concept 2 roeier model E, PM5'",NaN,53.0,Medemblik,2020-09-27 14:15:18+00:00
-189,'Concept 2 - model D roeitrainer / roeiapparaat',250.0,44.0,Almere,2020-09-27 12:52:16+00:00
-190,'Roei ergometer concept 2',300.0,89.0,Breda,2020-09-27 10:15:17+00:00
-191,'Concept2 Model D met PM5',900.0,191.0,Heerlen,2020-09-27 10:08:18+00:00
-192,'Concept 2 indoor rower roeimachine model D met PM3 monitor',800.0,95.0,Arnhem,2020-09-27 10:04:17+00:00
-193,'Concept 2 indoor rower roeimachine model D met PM3 monitor',800.0,95.0,Arnhem,2020-09-27 10:03:16+00:00
-194,'Concept 2 model E PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 21:04:21+00:00
-195,'Concept 2 model D PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:45:19+00:00
-196,'Concept 2 PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:07:18+00:00
-197,'Concept 2 PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:06:19+00:00
-198,'Roeitrainer CONCEPT 2 MODEL E MET PM4 DISPLAY',750.0,73.0,Veenendaal,2020-09-26 17:40:18+00:00
-199,'Roeitrainer CONCEPT 2 MODEL E MET PM4 DISPLAY',750.0,73.0,Veenendaal,2020-09-26 17:39:17+00:00
-200,'Concept 2 Roeitrainer Model D met pm3 Scherm',650.0,99.0,Goirle,2020-09-26 15:49:16+00:00
-201,"'Concept 2 Roeimachine model C, in bijna nieuwstaat.'",NaN,38.0,Naarden,2020-09-26 15:04:17+00:00
-202,'Concept 2 model C roeitrainer te koop!',550.0,0,Haarlem,2020-09-26 14:03:16+00:00
-203,'Concept 2 Model D Roeitrainer',900.0,0,Haarlem,2020-09-26 13:56:15+00:00
-204,'Concept2 roei ergometer met PM2 scherm',550.0,102.0,Bemmel,2020-09-26 13:46:17+00:00
-205,'Concept 2 model D PM4 roeitrainer',650.0,72.0,Voorthuizen,2020-09-26 13:22:17+00:00
-206,'Concept 2 Dyno',300.0,25.0,Egmond-Binnen,2020-09-26 10:42:16+00:00
-207,'Concept 2',300.0,25.0,Egmond-Binnen,2020-09-25 16:56:17+00:00
-208,"'Concept 2 roei ergometer, model D PM3'",700.0,99.0,Nijmegen,2020-09-25 15:46:16+00:00
-209,'Concept 2 zitkussentje. Één keer uitgeprobeerd.',NaN,61.0,Maarn,2020-09-25 14:47:17+00:00
-210,'Concept 2 Dyno',300.0,25.0,Egmond-Binnen,2020-09-25 12:53:17+00:00
-211,'Roeitrainer Concept2 model D PM3',675.0,92.0,Apeldoorn,2020-09-25 10:38:16+00:00
-212,'Roei apparaat Bonn concept 2.2',NaN,105.0,Uden,2020-09-25 10:16:18+00:00
-213,'Concept 2 model E/pm4',775.0,101.0,Schijndel,2020-09-25 09:54:16+00:00
-214,'roeimachine concept 2',NaN,17.0,Amsterdam,2020-09-25 08:51:15+00:00
-215,'Concept 2 roeimachine vintage model',NaN,37.0,'s-Gravenhage,2020-09-25 07:28:16+00:00
-216,'Concept2 roeitrainer model D met PM3 monitor',650.0,89.0,Epe,2020-09-24 18:54:18+00:00
-217,'Concept 2 Roeitrainer Model C met pm2 Computer',550.0,99.0,Goirle,2020-09-24 16:31:23+00:00
-218,'Concept2 model D PM5',800.0,111.0,Nes,2020-09-24 15:17:16+00:00
-219,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-09-24 12:32:17+00:00
-220,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-09-24 12:31:16+00:00
-221,'Concept 2 roeitrainer',550.0,64.0,Den Helder,2020-09-24 11:11:16+00:00
-222,'Concept 2 model C ergometer',450.0,87.0,Breda,2020-09-23 20:34:17+00:00
-223,'Concept 2 model C ergometer',450.0,87.0,Breda,2020-09-23 20:33:16+00:00
-224,'Concept 2 roeitrainer model D met PM3 scherm',650.0,41.0,Vleuten,2020-09-23 18:29:17+00:00
-225,'Concept 2 roeier',550.0,64.0,Den Helder,2020-09-23 17:44:17+00:00
-226,'Roeitrainer roeiapparaat  concept 2 model E PM4 display',750.0,97.0,Tilburg,2020-09-23 15:46:16+00:00
-227,'Concept 2 model E roeiapparaat',750.0,97.0,Tilburg,2020-09-23 15:22:14+00:00
-228,'CONCEPT 2 roeitrainer met PM4!',550.0,107.0,Beek,2020-09-23 13:19:15+00:00
-229,'CONCEPT 2 roeimachine met PM4',NaN,107.0,Beek,2020-09-23 13:07:15+00:00
-230,'Concept 2 Roeitrainer met pm3 Scherm model D',650.0,99.0,Goirle,2020-09-23 11:07:15+00:00
-231,'concept 2',500.0,18.0,Amsterdam,2020-09-23 09:01:14+00:00
-232,'Concept 2 model C   roeiertrainer',NaN,94.0,Tilburg,2020-09-23 07:16:10+00:00
-233,'Concept 2 roeitrainer',750.0,68.0,Leersum,2020-09-23 06:50:11+00:00
-234,'Concept 2',NaN,68.0,Leersum,2020-09-23 06:48:10+00:00
-235,'Concept 2 Roeimachine',400.0,13.0,Amsterdam,2020-09-22 19:48:12+00:00
-236,'Concept 2 roei ergometer',700.0,99.0,Nijmegen,2020-09-22 14:19:12+00:00
-237,'Concept 2 roeitrainer',500.0,19.0,Amsterdam,2020-09-22 09:04:10+00:00
-238,'Concept 2 model E PM5 Ergometer | Roeitrainer',950.0,47.0,Delft,2020-09-21 19:07:11+00:00
-239,'Concept 2 roeitrainer',500.0,184.0,Roodeschool,2020-09-21 13:42:10+00:00
-240,'Concept 2 PM3 monitor',60.0,99.0,Nispen,2020-09-21 13:25:11+00:00
-241,'Roei Apparaat Concept2',NaN,39.0,Harmelen,2020-09-21 12:28:10+00:00
-242,'Concept 2 model B roeitrainer met PM3 (geüpgraded)',375.0,65.0,Den Helder,2020-09-20 11:48:11+00:00
-243,'Concept2 roeitrainer model C zonder monitor',450.0,48.0,Utrecht,2020-09-20 08:57:16+00:00
-244,'Concept2 roeitrainer model C zonder monitor',450.0,48.0,Utrecht,2020-09-20 08:56:11+00:00
-245,'Concept 2',300.0,109.0,Cuijk,2020-09-20 07:43:11+00:00
-246,"'Roeitrainer Concept 2, fitness roeier met display.'",695.0,129.0,Hoogeveen,2020-09-20 07:32:11+00:00
-247,'Concept 2 Model D PM5 Zwart (met bon)',850.0,118.0,Eindhoven,2020-09-20 06:27:10+00:00
-248,'Concept 2 model D pm 3 monitor roeimachine',500.0,67.0,Ermelo,2020-09-19 14:54:11+00:00
-249,'Concept 2 roeitrainer',400.0,100.0,Sneek,2020-09-19 12:47:10+00:00
-250,'Concept 2 Roeitrainer model D met pm 3 scherm',600.0,99.0,Goirle,2020-09-19 11:15:11+00:00
-251,'Concept 2 roeimachine vintage model',NaN,37.0,'s-Gravenhage,2020-09-19 08:12:11+00:00
-252,'Concept 2 model C roeitrainer te koop!',550.0,18.0,Amsterdam,2020-09-18 15:06:11+00:00
-253,'concept 2 roeimachine',300.0,53.0,Rotterdam,2020-09-18 14:39:10+00:00
-254,'concept2 model E PM5 modelE concept2 zwart 2016',825.0,24.0,Oegstgeest,2020-09-18 13:33:11+00:00
-255,'concept2 model E PM5 modelE concept2 zwart',825.0,24.0,Oegstgeest,2020-09-18 13:10:11+00:00
-256,'Roeier Concept 2 PM3',700.0,51.0,Naaldwijk,2020-09-18 13:01:10+00:00
-257,'Concept 2 model E PM4',800.0,25.0,Katwijk,2020-09-18 11:23:11+00:00
-258,"'Concept 2 roeitrainer, fitness roeier met display.'",750.0,129.0,Hoogeveen,2020-09-18 10:14:10+00:00
-259,'Concept 2 pm2 pm3 computers monitor roeitrainer rower',NaN,90.0,Sloten,2020-09-18 09:13:03+00:00
-260,"'concept 2, x fitt, roeiapparaat, rower'",600.0,105.0,Zeeland,2020-09-18 09:13:03+00:00
-261,'Concept 2 roeitrainer',200.0,21.0,Amsterdam,2020-09-18 09:13:03+00:00
-262,'Roei Apparaat Concept 2 Zo Goed Als Nieuw!',NaN,20.0,Amsterdam,2020-09-18 09:12:58+00:00
-263,'2 footstrap riempjes voor de concept 2 roeimachine',6.0,77.0,Nunspeet,2020-09-18 09:12:58+00:00
-264,'Gezocht: concept2 monitor pm2 of pm3',NaN,63.0,Dordrecht,2020-09-18 09:12:58+00:00
-265,'Concept 2 Model E met PM4',699.0,0,Haarlem,2020-09-18 09:12:58+00:00
-266,'Concept 2 model E pm4',750.0,116.0,Babberich,2020-09-18 09:12:51+00:00
-267,'Concept 2 Roeiapparaat - werkt nog perfect! Originele staat',NaN,88.0,Breda,2020-09-18 09:12:51+00:00
-268,'Concept 2 model E roeitrainer met PM4 te koop!',675.0,0,Haarlem,2020-09-18 09:12:51+00:00
-269,'Concept pm2 of pm3 monitor gezocht',NaN,55.0,Amersfoort,2020-09-18 09:12:51+00:00
-270,'Concept 2 model E PM5 Roeitrainer',NaN,44.0,Berkel en Rodenrijs,2020-09-18 09:12:50+00:00
-271,'Concept 2 Roeitrainer Model D met Pm3 Scherm',NaN,99.0,Goirle,2020-09-18 09:12:46+00:00
-272,"'Concept 2 PM5 Flash Drive,  Nieuw!'",49.95,45.0,Delft,2020-09-18 09:12:46+00:00
-273,'Concept 2 roeimachine',500.0,19.0,Amsterdam,2020-09-18 09:12:46+00:00
-274,"'Concept 2 roeitrainer, type C'",NaN,91.0,Ugchelen,2020-09-18 09:12:45+00:00
-275,'Concept 2 model D roeitrainer te koop!',700.0,18.0,Amsterdam,2020-09-18 09:12:45+00:00
-276,'Concept 2 model C roeitrainer',425.0,65.0,Ermelo,2020-09-18 09:02:55+00:00
+0,'De First Degree Fitness Viking Rower AR concept2 concept 2',NaN,81.0,Zevenbergen,2020-10-29 18:58:03+00:00
+1,'3x Skierg incl. Vloerplaat kopie Concept2',750.0,111.0,Raalte,2020-10-29 18:58:03+00:00
+2,'Monitor PM3 Concept2',NaN,2.0,Overveen,2020-10-29 18:57:57+00:00
+3,'Concept 2 model D roeitrainer   pm3',NaN,96.0,Arnhem,2020-10-29 18:57:56+00:00
+4,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-29 18:57:56+00:00
+5,'Concept 2 model C met PM5 monitor! Roeitrainer',750.0,0,Haarlem,2020-10-29 18:57:56+00:00
+6,'Concept2 Model D Roeimachine',NaN,23.0,Amsterdam,2020-10-29 18:57:56+00:00
+7,'Concept 2 Roeitrainer Model C Met Pm2 Scherm',600.0,99.0,Goirle,2020-10-29 18:57:49+00:00
+8,'Concept 2 Roeitrainer Model D Met Pm5 Scherm',NaN,99.0,Goirle,2020-10-29 18:57:49+00:00
+9,'Concept 2 Model D PM5',NaN,146.0,Leek,2020-10-29 18:57:49+00:00
+10,'Concept2 model D PM5 roeimachine',NaN,43.0,Montfoort,2020-10-29 18:57:49+00:00
+11,'Concept 2 model D/ Pm5      jan. 2020 ',NaN,45.0,Rijswijk,2020-10-29 18:57:49+00:00
+12,'Roeitrainer Concept 2. In 100% staat',NaN,42.0,Utrecht,2020-10-29 15:06:53+00:00
+13,'Concept 2 model D/ Pm5      jan. 2020 ',1150.0,45.0,Rijswijk,2020-10-29 13:12:50+00:00
+14,'De First Degree Fitness Viking Rower AR concept2 concept 2',NaN,81.0,Zevenbergen,2020-10-29 12:36:52+00:00
+15,'Concept 2 roeier',NaN,50.0,Rotterdam,2020-10-29 12:34:51+00:00
+16,'Concept ll roeier',475.0,28.0,Alphen aan den Rijn,2020-10-29 12:34:51+00:00
+17,'concept 2 roeier',NaN,38.0,Almere,2020-10-29 12:34:50+00:00
+18,'1x Roeiers (exacte kopie) concept 2',650.0,111.0,Raalte,2020-10-29 12:34:50+00:00
+19,'Concept2 model D PM5 roeimachine',950.0,43.0,Montfoort,2020-10-29 10:28:50+00:00
+20,'Concept2 PM5 roeimachine',950.0,43.0,Montfoort,2020-10-29 10:16:53+00:00
+21,'Concept 2 met PM3 performance monitor',875.0,9.0,Hoofddorp,2020-10-29 09:08:50+00:00
+22,'Concept 2 Model D PM5',NaN,146.0,Leek,2020-10-29 07:35:50+00:00
+23,'3x Skierg incl. Vloerplaat kopie Concept2',750.0,111.0,Raalte,2020-10-28 21:24:57+00:00
+24,'3x Skierg incl. Vloerplaat kopie Concept2',750.0,111.0,Raalte,2020-10-28 21:23:56+00:00
+25,'Roeimachine Concept 2 Indoor Rover PM 2',NaN,52.0,Soest,2020-10-28 20:53:56+00:00
+26,'Roeimachine Concept 2 Indoor Rover PM 2',NaN,52.0,Soest,2020-10-28 20:53:03+00:00
+27,'Concept 2 roeimachine te koop',1100.0,155.0,Venlo,2020-10-28 19:17:00+00:00
+28,'Concept 2 model C met Pm2 monitor   -  Zeer goede staat!',625.0,40.0,Nootdorp,2020-10-28 17:59:56+00:00
+29,'Concept 2 model C met Pm2 monitor   -  Zeer goede staat!',625.0,40.0,Nootdorp,2020-10-28 17:58:56+00:00
+30,'Concept 2 Roeitrainer Model D Met Pm5 Scherm',750.0,99.0,Goirle,2020-10-28 16:36:51+00:00
+31,'Concept 2 Roeitrainer Model C Met Pm2 Scherm',600.0,99.0,Goirle,2020-10-28 15:43:52+00:00
+32,'Concept2 Model D Roeimachine',950.0,23.0,Amsterdam,2020-10-28 13:27:55+00:00
+33,'Monitor PM3 Concept2',NaN,2.0,Overveen,2020-10-28 13:13:53+00:00
+34,'Monitor PM3 Concept2',NaN,2.0,Overveen,2020-10-28 13:12:51+00:00
+35,'concept 2 pm2',NaN,94.0,Oud-Vossemeer,2020-10-28 11:04:52+00:00
+36,'Concept 2 Model D met PM 5 (nieuw)',NaN,146.0,Leek,2020-10-28 10:14:50+00:00
+37,'Concept 2 Model D met PM5   extra's',NaN,146.0,Leek,2020-10-28 10:04:49+00:00
+38,'Roeitrainer Concept 2 PM2',NaN,109.0,Best,2020-10-28 08:54:52+00:00
+39,'Concept 2 model C met PM5 monitor! Roeitrainer',750.0,0,Haarlem,2020-10-28 08:52:53+00:00
+40,'Roeitoestel Concept 2 Indoor Rower',900.0,25.0,Amsterdam,2020-10-28 07:49:52+00:00
+41,'Concept 2 roeitrainer pm2',650.0,137.0,Almelo,2020-10-27 23:53:50+00:00
+42,'Concept 2 roeitrainer pm2',650.0,137.0,Almelo,2020-10-27 23:52:51+00:00
+43,'Concept 2 roeier model D PM5',900.0,37.0,'s-Gravenhage,2020-10-27 21:15:56+00:00
+44,'Concept 2 roeier model D PM5',900.0,37.0,'s-Gravenhage,2020-10-27 21:14:59+00:00
+45,'Concept 2 Indoor Rover PM 2',NaN,68.0,Enspijk,2020-10-27 20:42:01+00:00
+46,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-27 20:10:01+00:00
+47,'Concept 2 model D roeitrainer   pm3',NaN,96.0,Arnhem,2020-10-27 15:05:57+00:00
+48,'Concept 2 model D roeitrainer   pm3',NaN,96.0,Arnhem,2020-10-27 15:05:00+00:00
+49,'1x Roeiers (exacte kopie) concept 2',650.0,111.0,Raalte,2020-10-27 13:27:53+00:00
+50,'4x Roeiers (exacte kopie) concept 2',650.0,111.0,Raalte,2020-10-27 09:46:54+00:00
+51,'2x Concept2 model D roeiers zwart PM5',900.0,111.0,Raalte,2020-10-27 09:01:54+00:00
+52,'2x Concept2 model D roeiers zwart PM5',900.0,111.0,Raalte,2020-10-27 09:00:56+00:00
+53,'3x nieuwe Concept2 roeiers zwart PM5',900.0,111.0,Raalte,2020-10-27 08:07:54+00:00
+54,'3x nieuwe Concept2 roeiers zwart PM5',900.0,111.0,Raalte,2020-10-27 08:07:01+00:00
+55,'Concept2 pm2 monitor',NaN,63.0,Dordrecht,2020-10-26 19:35:08+00:00
+56,"'Concept2 PM3 monitor, geschikt voor roei-ergometer/ski-erg'",125.0,37.0,Voorburg,2020-10-26 19:35:07+00:00
+57,'Roeitrainer concept2',NaN,108.0,Deventer,2020-10-26 19:35:04+00:00
+58,'Concept2 Model D Indoor Rower   PM3 (Performance Monitor 3)',NaN,92.0,Tilburg,2020-10-26 19:35:04+00:00
+59,"'Concept2 model D, slechts 1100 lifetime KM'",NaN,40.0,Hilversum,2020-10-26 19:35:03+00:00
+60,'Concept2 roeimachine',NaN,18.0,Amsterdam,2020-10-26 19:35:03+00:00
+61,'Concept2 Model D PM5',NaN,63.0,Oud-Beijerland,2020-10-26 19:35:02+00:00
+62,"'Roeitrainer concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-26 19:10:38+00:00
+63,'Concept2 Model D Indoor Rower   PM3 (Performance Monitor 3)',NaN,92.0,Tilburg,2020-10-26 19:10:31+00:00
+64,"'Concept2 model D, slechts 1100 lifetime KM'",NaN,40.0,Hilversum,2020-10-26 19:10:31+00:00
+65,'Concept 2 roeitrainer roeimachine pm3 Grijs indoor rower',550.0,45.0,Utrecht,2020-10-26 19:10:31+00:00
+66,'Concept2 roeimachine',NaN,18.0,Amsterdam,2020-10-26 19:10:31+00:00
+67,'Concept2 Model D PM5',NaN,63.0,Oud-Beijerland,2020-10-26 19:10:31+00:00
+68,'Concept2 Model D PM5',NaN,63.0,Oud-Beijerland,2020-10-26 18:53:27+00:00
+69,'Concept2 roeimachine',NaN,18.0,Amsterdam,2020-10-26 16:53:24+00:00
+70,'Concept2 roeimachine',NaN,18.0,Amsterdam,2020-10-26 16:52:23+00:00
+71,'Concept 2 roeitrainer roeimachine pm3 Grijs indoor rower',550.0,45.0,Utrecht,2020-10-26 16:31:21+00:00
+72,"'Concept2 model D, slechts 1100 lifetime KM'",NaN,40.0,Hilversum,2020-10-26 13:36:22+00:00
+73,'Concept2 Model D Indoor Rower   PM3 (Performance Monitor 3)',NaN,92.0,Tilburg,2020-10-26 13:03:22+00:00
+74,'Concept 2 Model D Indoor Rower   PM3 (Performance Monitor 3)',NaN,92.0,Tilburg,2020-10-26 12:59:21+00:00
+75,"'Roeitrainer concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-26 08:50:21+00:00
+76,'Concept 2 Model D PM4',NaN,49.0,IJsselstein,2020-10-25 22:03:10+00:00
+77,"'concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-25 22:03:10+00:00
+78,'Concept 2 model E met Pm4 in Perfecte Staat!',950.0,45.0,Rijswijk,2020-10-25 22:03:10+00:00
+79,'Concept 2 Model D PM5 Roeimachine / Ergometer',750.0,1.0,Haarlem,2020-10-25 22:03:09+00:00
+80,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-25 22:03:09+00:00
+81,'Concept 2 Model D PM4',NaN,49.0,IJsselstein,2020-10-25 22:00:17+00:00
+82,"'concept 2, model D, PM 3'",500.0,45.0,Nieuwe Niedorp,2020-10-25 22:00:17+00:00
+83,'Concept 2 model E met Pm4 in Perfecte Staat!',950.0,45.0,Rijswijk,2020-10-25 22:00:17+00:00
+84,'Concept 2 Model D PM5 Roeimachine / Ergometer',750.0,1.0,Haarlem,2020-10-25 22:00:17+00:00
+85,'Concept 2 Model D PM4',NaN,146.0,Leek,2020-10-25 22:00:17+00:00
+86,'Concept 2 roeier incl antislip mat.',NaN,91.0,Apeldoorn,2020-10-19 17:48:31+00:00
+87,'concept2 Dyno met Force hometrainer krachttraining fittness',575.0,64.0,Dordrecht,2020-10-19 16:45:25+00:00
+88,'Concept 2 Indoor Rower (roeitrainer)',550.0,83.0,Lith,2020-10-19 15:13:25+00:00
+89,'Concept 2 Indoor Rower (roeitrainer)',550.0,83.0,Lith,2020-10-19 15:12:25+00:00
+90,'Concept2 pm2 monitor',NaN,63.0,Dordrecht,2020-10-19 13:25:26+00:00
+91,'Roeitrainer Concept 2 Model D met PM 3 monitor',650.0,118.0,Bladel,2020-10-19 10:52:24+00:00
+92,'Concept 2 Model D te koop (roeitrainer)',750.0,0,Haarlem,2020-10-19 10:32:25+00:00
+93,'Concept 2 in zeer goede staat.',625.0,98.0,Gemonde,2020-10-19 10:15:24+00:00
+94,'Roeitrainer CONCEPT 2 met PM3 DISPLAY',599.0,74.0,De Klomp,2020-10-18 17:25:28+00:00
+95,'Concept 2 model D roeitrainer',800.0,52.0,Rotterdam,2020-10-18 16:58:25+00:00
+96,'Roei trainer / roeiapparaat Concept 2',600.0,16.0,Amsterdam,2020-10-18 15:25:23+00:00
+97,'Indoor Rower Antislop mat (Concept2)',20.0,88.0,Oudenbosch,2020-10-18 13:26:22+00:00
+98,'Indoor Rower Antislop mat (Concept2)',20.0,88.0,Oudenbosch,2020-10-18 13:25:22+00:00
+99,'Concept 2 model D PM3 roeimachine',NaN,51.0,Rotterdam,2020-10-18 12:18:24+00:00
+100,"'Roeimachine Concept 2, professioneel, zwarte uitvoering'",NaN,38.0,Spierdijk,2020-10-18 12:05:25+00:00
+101,"'Roeimachine Concept 2, professioneel, zwarte uitvoering'",NaN,38.0,Spierdijk,2020-10-18 12:04:26+00:00
+102,'Concept 2 roeimachine',50.0,98.0,Zwolle,2020-10-18 11:08:24+00:00
+103,'Prima werkende Concept 2 Roeier (PM3)',30.0,50.0,Rotterdam,2020-10-18 10:59:24+00:00
+104,'Roeitrainer concept 2',75.0,161.0,Roermond,2020-10-18 10:23:24+00:00
+105,'ZGAN ROEITRAINER CONCEPT 2 model D (zwart) met PM5 DISPLAY',1050.0,46.0,Delft,2020-10-17 15:59:22+00:00
+106,'ZGAN ROEITRAINER CONCEPT 2 model D (zwart) met PM5 DISPLAY',1050.0,46.0,Delft,2020-10-17 15:58:22+00:00
+107,'Concept 2 model D pm3 roeitrainer.',700.0,22.0,Den Ilp,2020-10-17 13:36:22+00:00
+108,'Roeitrainer CONCEPT 2 zgan',550.0,74.0,De Klomp,2020-10-17 13:23:22+00:00
+109,'concept 2 roeier',NaN,38.0,Almere,2020-10-17 13:18:23+00:00
+110,'ROEITRAINER D PM5 CONCEPT 2',700.0,16.0,Assendelft,2020-10-17 12:21:22+00:00
+111,'Concept 2 model B roeitrainer met PM3 (geüpgraded)',NaN,65.0,Den Helder,2020-10-16 23:06:20+00:00
+112,'Concept 2 model C   roeiertrainer',NaN,94.0,Tilburg,2020-10-16 23:06:14+00:00
+113,'Concept 2 model C roeitrainer te koop!',550.0,0,Haarlem,2020-10-16 23:06:14+00:00
+114,'Concept 2 Model C roeitrainer',550.0,3.0,Heemstede,2020-10-16 23:06:14+00:00
+115,"'Concept 2 model D pm5, roeitrainer nieuw in doos'",1100.0,104.0,Deventer,2020-10-16 23:06:13+00:00
+116,'Concept 2 Ergometer Model D',NaN,86.0,Rosmalen,2020-10-16 23:06:13+00:00
+117,'Concept 2 roeimachine model D PM3',800.0,33.0,Volendam,2020-10-16 23:06:06+00:00
+118,'Concept 2 model C',NaN,166.0,Winsum,2020-10-16 23:06:06+00:00
+119,'Concept 2 model C',NaN,146.0,Leek,2020-10-16 23:06:06+00:00
+120,'Concept 2 roeitrainer model d pm3',NaN,37.0,Woerden,2020-10-16 23:06:06+00:00
+121,'Concept 2 model C met PM2 monitor roeitrainer',575.0,157.0,Emmen,2020-10-16 23:06:06+00:00
+122,"'Roeitrainer Concept 2 Mod D met Pm5 monitor, perfecte staat'",875.0,32.0,Boskoop,2020-10-16 21:06:18+00:00
+123,'Concept 2 model C met PM2 monitor roeitrainer',575.0,157.0,Emmen,2020-10-16 21:06:18+00:00
+124,'Concept2 Model D Pm5 in nieuwstaat',875.0,32.0,Boskoop,2020-10-16 19:02:20+00:00
+125,'Concept 2 roeitrainer model d pm3',750.0,37.0,Woerden,2020-10-16 15:56:16+00:00
+126,'Zeer complete Concept 2 model D ergometer/indoor rower',700.0,109.0,Deventer,2020-10-15 19:16:19+00:00
+127,'concept 2',NaN,134.0,Varsseveld,2020-10-15 12:02:16+00:00
+128,'Concept 2 model C',NaN,146.0,Leek,2020-10-15 06:52:16+00:00
+129,'Concept 2 roeitrainer / roeimachine / roerapparaat',NaN,90.0,Breda,2020-10-14 21:34:16+00:00
+130,'roeitrainer concept 2 D PM3',500.0,161.0,Roermond,2020-10-14 14:20:18+00:00
+131,'Concept 2 logcard',10.0,60.0,Rhoon,2020-10-14 13:18:19+00:00
+132,'roeitrainer concept 2 D PM3',500.0,161.0,Roermond,2020-10-14 12:16:17+00:00
+133,'Concept 2 model C',600.0,166.0,Winsum,2020-10-14 10:12:16+00:00
+134,'Concept2 model D',NaN,44.0,Berkel en Rodenrijs,2020-10-14 09:10:17+00:00
+135,'Concept2 PM2 werkende losse monitor',65.0,17.0,Amsterdam,2020-10-13 17:40:19+00:00
+136,'Concept2 Model D PM5 Zwart',1000.0,41.0,Hilversum,2020-10-13 17:40:19+00:00
+137,'Concept 2 model D/ PM5    Nieuwstaat!',925.0,45.0,Rijswijk,2020-10-13 15:36:17+00:00
+138,'Concept2 Model D PM5 roeitrainer',850.0,93.0,Apeldoorn,2020-10-13 14:34:17+00:00
+139,'Concept 2 roeimachine model D PM3',800.0,33.0,Volendam,2020-10-13 13:32:17+00:00
+140,'Concept 2 met pm5 zeer mooi',875.0,98.0,Gemonde,2020-10-13 10:26:17+00:00
+141,'Concept 2 model C',NaN,146.0,Leek,2020-10-13 06:18:16+00:00
+142,'Concept 2 model C',NaN,146.0,Leek,2020-10-12 21:00:20+00:00
+143,'Concept2 PM3 werkende losse monitor',50.0,17.0,Amsterdam,2020-10-12 19:58:18+00:00
+144,'Concept 2 model D met PM5 in Perfecte Staat',950.0,40.0,Nootdorp,2020-10-12 18:56:20+00:00
+145,'Concept 2 - indoor Roeimachine',750.0,106.0,Langenboom,2020-10-12 18:56:20+00:00
+146,'concept 2',NaN,146.0,Leek,2020-10-12 17:54:18+00:00
+147,'Concept 2 Ergometer Model D',650.0,86.0,Rosmalen,2020-10-12 15:50:48+00:00
+148,'Roeier concept2',625.0,85.0,Dongen,2020-10-12 15:50:48+00:00
+149,'Concept2 Roeimachine',NaN,64.0,Woudenberg,2020-10-12 15:50:48+00:00
+150,'Concept2 PM 4 roeitrainer roeiapparaat roeier roeien',NaN,64.0,Dordrecht,2020-10-12 15:50:47+00:00
+151,'Concept 2 model c',NaN,146.0,Leek,2020-10-12 15:50:44+00:00
+152,'Roeitrainer CONCEPT 2 MODEL D MET PM4 DISPLAY//ZGAN',749.0,74.0,Veenendaal,2020-10-12 15:50:44+00:00
+153,'Concept 2 roeier incl anti slipmat.',NaN,91.0,Apeldoorn,2020-10-12 15:50:44+00:00
+154,'Concept 2 Roeitrainer in prima conditie - Coronaproof traine',525.0,123.0,Lemele,2020-10-12 15:50:43+00:00
+155,'Concept2 model d pm5 grijs',900.0,51.0,De Lier,2020-10-12 15:50:43+00:00
+156,'Concept 2 roeitrainer model D PM4',800.0,45.0,Utrecht,2020-10-11 15:43:19+00:00
+157,'Concept 2 Bike Erg',1000.0,42.0,Hoorn,2020-10-11 14:41:23+00:00
+158,'Concept 2 monitor (defect)',NaN,146.0,Leek,2020-10-11 14:41:23+00:00
+159,'Concept 2 model D (superstaat!!)',NaN,146.0,Leek,2020-10-11 13:39:18+00:00
+160,'Concept2 PM5 roeitrainer',750.0,62.0,Sliedrecht,2020-10-11 12:37:19+00:00
+161,'Concept 2 indoor Roeiapparaat model D PM3',450.0,160.0,Groningen,2020-10-11 11:35:19+00:00
+162,'Zitkussen en smartphonehouder voor concept2 roeiapparaat',NaN,51.0,De Lier,2020-10-11 09:31:18+00:00
+163,'Roeimachine concept2',NaN,17.0,Amstelveen,2020-10-11 09:31:18+00:00
+164,'Concept 2 nieuwstaat',650.0,107.0,Sint-Oedenrode,2020-10-11 08:29:18+00:00
+165,"'Ergometer / roeitrainer Concept 2 Model D, zwart, zgan'",850.0,116.0,Laag-Keppel,2020-10-10 18:01:20+00:00
+166,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-10-10 14:55:24+00:00
+167,"'Concept 2 roeimachine, model D met PM4 scherm'",NaN,54.0,Amersfoort,2020-10-10 13:53:19+00:00
+168,'Concept2 Type D Indoor Rower PM3 roeitrainer',599.0,104.0,Deventer,2020-10-10 12:51:17+00:00
+169,'Concept 2 Ergometer Model D',650.0,15.0,Amsterdam,2020-10-10 12:51:17+00:00
+170,'Concept 2 pm3  roeier.',NaN,22.0,Den Ilp,2020-10-10 11:49:17+00:00
+171,'Concept2 roeier model C PM2',600.0,39.0,Nootdorp,2020-10-10 11:49:17+00:00
+172,'Concept2 Type D/E Indoor Rower PM3 roeitrainer',599.0,104.0,Deventer,2020-10-10 11:49:17+00:00
+173,"'Concept 2, model E met PM4'",800.0,111.0,Staphorst,2020-10-10 09:45:18+00:00
+174,'Concept2 Roeitrainer Model C (defecte display)',400.0,22.0,Amsterdam,2020-10-09 22:23:16+00:00
+175,'Concept2 model d pm5',900.0,51.0,De Lier,2020-10-09 21:21:17+00:00
+176,'Concept 2 indoor roeiapparaat',NaN,103.0,Bergen op Zoom,2020-10-09 19:17:18+00:00
+177,"'Concept 2 roeitrainer, model E, display PM4'",NaN,67.0,Harderwijk,2020-10-09 14:07:19+00:00
+178,"'Concept 2 model D pm5, roeitrainer nieuw in doos'",1100.0,104.0,Deventer,2020-10-09 14:07:19+00:00
+179,'Roeitrainer concept2 Indoor Rower',500.0,19.0,Amsterdam,2020-10-09 11:56:18+00:00
+180,'Concept 2 roeimachine Model D met PM5',800.0,17.0,Amsterdam,2020-10-09 11:56:18+00:00
+181,'Roeimachine Concept 2',575.0,110.0,Erp,2020-10-09 11:56:18+00:00
+182,'Concept 2 Model E met Pm4 Scherm',800.0,99.0,Goirle,2020-10-09 10:52:18+00:00
+183,'Nieuwe roeier Concept 2 model D met PM5',1250.0,46.0,Delft,2020-10-09 07:45:15+00:00
+184,'Concept 2 PM2 ZEER GOEDE STAAT',600.0,81.0,Zevenbergen,2020-10-08 19:21:19+00:00
+185,'Concept 2 model D indoor Rower PM3 gereserveerd tot vr mid',800.0,64.0,Putten,2020-10-08 16:15:17+00:00
+186,'CONCEPT 2 ROEITRAINER',NaN,172.0,Stitswerd,2020-10-08 11:01:17+00:00
+187,"'NIEUWSTAAT! Roeimachine Concept 2 model D, PM5'",1050.0,182.0,Meerssen,2020-10-07 20:24:18+00:00
+188,'Concept 2 model D met PM3',750.0,102.0,Zwartsluis,2020-10-07 12:46:17+00:00
+189,'Concept 2 model E/ PM5  In Splinternieuwe Staat',1175.0,45.0,Rijswijk,2020-10-07 12:36:19+00:00
+190,'Concept 2 model C',575.0,107.0,Sint-Oedenrode,2020-10-07 11:11:16+00:00
+191,'Concept 2 model D indoor Rower PM3',800.0,64.0,Putten,2020-10-07 09:15:18+00:00
+192,'Concept 2 sensor   Sensorhuis voor PM aansturing',NaN,40.0,Nootdorp,2020-10-07 06:56:18+00:00
+193,'Concept 2 PM3 monitor met hartslag sensor',NaN,40.0,Nootdorp,2020-10-07 05:53:16+00:00
+194,'Professionele roeitrainer commercial line Concept 2 Proteus',500.0,82.0,Hedel,2020-10-06 21:06:16+00:00
+195,'Indoor roeitrainer Concept 2 model D met PM4 computer',NaN,20.0,Amsterdam,2020-10-06 21:06:16+00:00
+196,'Concept 2 PM3 monitor',NaN,40.0,Nootdorp,2020-10-06 20:13:17+00:00
+197,'Concept2 Model D PM5 roei trainer machine',700.0,95.0,Arnhem,2020-10-06 18:27:19+00:00
+198,'Concept2 Model D PM5',700.0,95.0,Arnhem,2020-10-06 18:17:18+00:00
+199,'Concept 2 Model E met Pm4 Scherm',800.0,99.0,Goirle,2020-10-06 16:17:17+00:00
+200,'Concept 2 model D PM3 roeitrainer',600.0,58.0,Breezand,2020-10-06 14:52:19+00:00
+201,'Concept2 roeier model c PM4',600.0,12.0,Nieuw-Vennep,2020-10-06 14:21:17+00:00
+202,'Roeitrainer concept 2',NaN,74.0,Aalst,2020-10-06 13:39:17+00:00
+203,'Concept2 roei ergometer',450.0,43.0,De Meern,2020-10-06 12:55:16+00:00
+204,'Concept 2 roeitrainer PM2',200.0,28.0,Voorschoten,2020-10-06 09:08:16+00:00
+205,'Roeimachine Concept 2 model D',550.0,66.0,Harderwijk,2020-10-06 08:16:17+00:00
+206,'Concept 2 roeier',NaN,91.0,Apeldoorn,2020-10-06 05:57:16+00:00
+207,'Nieuw Concept 2 Model D Indoor Rower PM5',1000.0,40.0,'s-Gravenhage,2020-10-05 19:20:20+00:00
+208,"'Concept 2 model D, PM 3 display'",750.0,2.0,Heemstede,2020-10-05 15:17:17+00:00
+209,'Concept2  roeimachine model PM4 2x',600.0,47.0,Bilthoven,2020-10-05 14:29:17+00:00
+210,'Concept2 model E PM5',800.0,26.0,Amsterdam,2020-10-05 10:49:18+00:00
+211,'Concept2 model D PM5',800.0,26.0,Amsterdam,2020-10-05 10:26:17+00:00
+212,'Concept2 model D PM5',800.0,26.0,Amsterdam,2020-10-05 10:25:19+00:00
+213,'Concept 2 conceot2 roeier model d pm5',750.0,65.0,Dordrecht,2020-10-05 06:23:16+00:00
+214,'Concept 2 row',750.0,105.0,Veghel,2020-10-05 05:34:16+00:00
+215,'Concept 2 Model D PM3 Roeitrainer',900.0,2.0,Heemstede,2020-10-04 20:00:19+00:00
+216,'concept 2 roeier rower roeiapparaat roeimachine',NaN,63.0,Zwijndrecht,2020-10-04 16:40:19+00:00
+217,'Concept 2 Model C roeitrainer',550.0,3.0,Heemstede,2020-10-04 16:29:18+00:00
+218,'Concept2 roeier model C PM2',600.0,39.0,Nootdorp,2020-10-04 14:57:16+00:00
+219,"'Concept 2 Roeitrainer Model D PM5, inclusief accessoires'",850.0,108.0,Best,2020-10-04 14:26:17+00:00
+220,"'Concept 2 Roeitrainer Model D PM5, inclusief accessoires'",850.0,108.0,Best,2020-10-04 14:25:17+00:00
+221,'Roeitrainer Concept 2 Model B.',250.0,59.0,Rhoon,2020-10-04 12:22:18+00:00
+222,'Concept 2 PM3 display roeimachine rowing machine indoor',600.0,22.0,Amsterdam,2020-10-04 11:40:19+00:00
+223,'Concept 2 PM3 display roeimachine rowing machine indoor',600.0,22.0,Amsterdam,2020-10-04 11:39:17+00:00
+224,'Concept 2 Model C Roeitrainer PM2',500.0,55.0,Rotterdam,2020-10-04 10:26:25+00:00
+225,'Concept 2 Model E met PM 5 display zo goed als nieuw',1000.0,41.0,Vleuten,2020-10-04 09:55:18+00:00
+226,'Concept 2 Roeitrainer Model C Met Pm2 Scherm',550.0,99.0,Goirle,2020-10-04 07:50:56+00:00
+227,'concept 2 model D',NaN,17.0,Weteringbrug,2020-10-04 07:50:50+00:00
+228,'Spm2 voor concept 2',NaN,84.0,Breda,2020-10-04 07:50:50+00:00
+229,"'Concept 2 roeitrainer, met Pm2 display, in zeer goede staat'",700.0,91.0,Rosmalen,2020-10-04 07:50:50+00:00
+230,'Roeitrainer CONCEPT 2 MODEL D met PM3 DISPLAY',675.0,73.0,Veenendaal,2020-10-04 07:50:49+00:00
+231,'Concept 2 roeimachine',250.0,76.0,Veenendaal,2020-10-04 07:50:49+00:00
+232,'Concept 2 roeier model E pm4 display monitor',NaN,166.0,Hoogezand,2020-10-02 08:59:18+00:00
+233,'Concept 2 roeier model E pm4 display monitor',NaN,166.0,Hoogezand,2020-10-02 08:58:16+00:00
+234,'Concept 2 Model D Roeitrainer met PM3',800.0,0,Haarlem,2020-10-01 16:56:42+00:00
+235,"'Onbeschadigde Roeimachine, Concept 2, Model D, PM3 monitor.'",550.0,54.0,Vianen,2020-10-01 12:53:17+00:00
+236,'ZGAN roeier Concept 2 model D met PM5',1250.0,46.0,Delft,2020-10-01 10:17:17+00:00
+237,'Concept 2 Roeimachine model C uitmuntende staat',550.0,78.0,Nunspeet,2020-09-30 19:04:20+00:00
+238,'Concept 2 Roeimachine',550.0,78.0,Nunspeet,2020-09-30 18:17:18+00:00
+239,'Roeitrainer Concept 2 model D PM5',850.0,41.0,Hilversum,2020-09-30 16:31:22+00:00
+240,'Concept 2 Roei Apparaat',NaN,39.0,Harmelen,2020-09-30 14:11:17+00:00
+241,'Concept2 Roeitrainer',450.0,50.0,Bosch en Duin,2020-09-30 13:48:17+00:00
+242,'Concept 2 roeitrainer Nieuw model D',1950.0,91.0,'s-Hertogenbosch,2020-09-30 12:20:18+00:00
+243,'Concept 2 Roeitrainer Model C Met Pm3 Scherm',550.0,99.0,Goirle,2020-09-29 17:14:18+00:00
+244,'Roeimachine Concept 2 zwart',600.0,52.0,Lekkerkerk,2020-09-29 13:20:17+00:00
+245,'Roeitrainer CONCEPT 2',675.0,74.0,Veenendaal,2020-09-29 12:05:16+00:00
+246,'Roeimachine Concept 2 model D',NaN,23.0,Leiden,2020-09-29 09:39:16+00:00
+247,'Concept 2 roei trainer model D pm4',700.0,68.0,Harderwijk,2020-09-28 21:29:16+00:00
+248,'Concept2 model C roeitrainer met PM2',500.0,75.0,Hulshorst,2020-09-28 12:57:17+00:00
+249,'Concept 2 model B roeitrainer',300.0,39.0,'s-Gravenhage,2020-09-28 12:31:16+00:00
+250,"'Concept 2 roeier model E, PM5'",NaN,53.0,Medemblik,2020-09-28 12:16:16+00:00
+251,'Concept 2 roeimachine roeitrainer PM4 computer',700.0,43.0,Utrecht,2020-09-28 11:55:17+00:00
+252,'Concept 2 model E roeitrainer met PM4',750.0,0,Haarlem,2020-09-28 11:32:17+00:00
+253,'Roeimachine concept 2.  In zeer goede staat',475.0,127.0,Nijega,2020-09-28 10:19:17+00:00
+254,'Concept 2 roeimachine PM4 computer',NaN,43.0,Utrecht,2020-09-28 10:13:16+00:00
+255,'Concept 2 roeimachine PM4 computer',NaN,43.0,Utrecht,2020-09-28 10:11:16+00:00
+256,'Concept 2 roeimachine PM3 computer',NaN,43.0,Utrecht,2020-09-28 10:09:17+00:00
+257,'Concept 2 model D roeimachine zwart',950.0,18.0,Sassenheim,2020-09-28 08:49:18+00:00
+258,'Concept 2 roeimachine met PM4 computer',700.0,108.0,Wanneperveen,2020-09-28 07:59:15+00:00
+259,'Concept 2 model C roeier - zo goed als nieuw',NaN,18.0,Wormerveer,2020-09-28 06:43:21+00:00
+260,'Concept 2 model C roeier - zo goed al nieuw',NaN,18.0,Wormerveer,2020-09-28 06:42:15+00:00
+261,'Concept 2 Model C',600.0,3.0,Heemstede,2020-09-27 21:13:16+00:00
+262,'Concept 2 roei ergometer model D',700.0,26.0,Leiden,2020-09-27 18:58:18+00:00
+263,'Concept 2 roei ergometer model D',700.0,26.0,Leiden,2020-09-27 18:57:20+00:00
+264,"'Concept 2 roeier model E, PM5'",NaN,53.0,Medemblik,2020-09-27 14:15:18+00:00
+265,'Concept 2 - model D roeitrainer / roeiapparaat',250.0,44.0,Almere,2020-09-27 12:52:16+00:00
+266,'Roei ergometer concept 2',300.0,89.0,Breda,2020-09-27 10:15:17+00:00
+267,'Concept2 Model D met PM5',900.0,191.0,Heerlen,2020-09-27 10:08:18+00:00
+268,'Concept 2 indoor rower roeimachine model D met PM3 monitor',800.0,95.0,Arnhem,2020-09-27 10:04:17+00:00
+269,'Concept 2 indoor rower roeimachine model D met PM3 monitor',800.0,95.0,Arnhem,2020-09-27 10:03:16+00:00
+270,'Concept 2 model E PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 21:04:21+00:00
+271,'Concept 2 model D PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:45:19+00:00
+272,'Concept 2 PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:07:18+00:00
+273,'Concept 2 PM 4 roeiapparaat',650.0,72.0,Voorthuizen,2020-09-26 18:06:19+00:00
+274,'Roeitrainer CONCEPT 2 MODEL E MET PM4 DISPLAY',750.0,73.0,Veenendaal,2020-09-26 17:40:18+00:00
+275,'Roeitrainer CONCEPT 2 MODEL E MET PM4 DISPLAY',750.0,73.0,Veenendaal,2020-09-26 17:39:17+00:00
+276,'Concept 2 Roeitrainer Model D met pm3 Scherm',650.0,99.0,Goirle,2020-09-26 15:49:16+00:00
+277,"'Concept 2 Roeimachine model C, in bijna nieuwstaat.'",NaN,38.0,Naarden,2020-09-26 15:04:17+00:00
+278,'Concept 2 model C roeitrainer te koop!',550.0,0,Haarlem,2020-09-26 14:03:16+00:00
+279,'Concept 2 Model D Roeitrainer',900.0,0,Haarlem,2020-09-26 13:56:15+00:00
+280,'Concept2 roei ergometer met PM2 scherm',550.0,102.0,Bemmel,2020-09-26 13:46:17+00:00
+281,'Concept 2 model D PM4 roeitrainer',650.0,72.0,Voorthuizen,2020-09-26 13:22:17+00:00
+282,'Concept 2 Dyno',300.0,25.0,Egmond-Binnen,2020-09-26 10:42:16+00:00
+283,'Concept 2',300.0,25.0,Egmond-Binnen,2020-09-25 16:56:17+00:00
+284,"'Concept 2 roei ergometer, model D PM3'",700.0,99.0,Nijmegen,2020-09-25 15:46:16+00:00
+285,'Concept 2 zitkussentje. Één keer uitgeprobeerd.',NaN,61.0,Maarn,2020-09-25 14:47:17+00:00
+286,'Concept 2 Dyno',300.0,25.0,Egmond-Binnen,2020-09-25 12:53:17+00:00
+287,'Roeitrainer Concept2 model D PM3',675.0,92.0,Apeldoorn,2020-09-25 10:38:16+00:00
+288,'Roei apparaat Bonn concept 2.2',NaN,105.0,Uden,2020-09-25 10:16:18+00:00
+289,'Concept 2 model E/pm4',775.0,101.0,Schijndel,2020-09-25 09:54:16+00:00
+290,'roeimachine concept 2',NaN,17.0,Amsterdam,2020-09-25 08:51:15+00:00
+291,'Concept 2 roeimachine vintage model',NaN,37.0,'s-Gravenhage,2020-09-25 07:28:16+00:00
+292,'Concept2 roeitrainer model D met PM3 monitor',650.0,89.0,Epe,2020-09-24 18:54:18+00:00
+293,'Concept 2 Roeitrainer Model C met pm2 Computer',550.0,99.0,Goirle,2020-09-24 16:31:23+00:00
+294,'Concept2 model D PM5',800.0,111.0,Nes,2020-09-24 15:17:16+00:00
+295,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-09-24 12:32:17+00:00
+296,'Nieuwe roeier Concept 2 model D met PM5 zwart',1300.0,46.0,Delft,2020-09-24 12:31:16+00:00
+297,'Concept 2 roeitrainer',550.0,64.0,Den Helder,2020-09-24 11:11:16+00:00
+298,'Concept 2 model C ergometer',450.0,87.0,Breda,2020-09-23 20:34:17+00:00
+299,'Concept 2 model C ergometer',450.0,87.0,Breda,2020-09-23 20:33:16+00:00
+300,'Concept 2 roeitrainer model D met PM3 scherm',650.0,41.0,Vleuten,2020-09-23 18:29:17+00:00
+301,'Concept 2 roeier',550.0,64.0,Den Helder,2020-09-23 17:44:17+00:00
+302,'Roeitrainer roeiapparaat  concept 2 model E PM4 display',750.0,97.0,Tilburg,2020-09-23 15:46:16+00:00
+303,'Concept 2 model E roeiapparaat',750.0,97.0,Tilburg,2020-09-23 15:22:14+00:00
+304,'CONCEPT 2 roeitrainer met PM4!',550.0,107.0,Beek,2020-09-23 13:19:15+00:00
+305,'CONCEPT 2 roeimachine met PM4',NaN,107.0,Beek,2020-09-23 13:07:15+00:00
+306,'Concept 2 Roeitrainer met pm3 Scherm model D',650.0,99.0,Goirle,2020-09-23 11:07:15+00:00
+307,'concept 2',500.0,18.0,Amsterdam,2020-09-23 09:01:14+00:00
+308,'Concept 2 model C   roeiertrainer',NaN,94.0,Tilburg,2020-09-23 07:16:10+00:00
+309,'Concept 2 roeitrainer',750.0,68.0,Leersum,2020-09-23 06:50:11+00:00
+310,'Concept 2',NaN,68.0,Leersum,2020-09-23 06:48:10+00:00
+311,'Concept 2 Roeimachine',400.0,13.0,Amsterdam,2020-09-22 19:48:12+00:00
+312,'Concept 2 roei ergometer',700.0,99.0,Nijmegen,2020-09-22 14:19:12+00:00
+313,'Concept 2 roeitrainer',500.0,19.0,Amsterdam,2020-09-22 09:04:10+00:00
+314,'Concept 2 model E PM5 Ergometer | Roeitrainer',950.0,47.0,Delft,2020-09-21 19:07:11+00:00
+315,'Concept 2 roeitrainer',500.0,184.0,Roodeschool,2020-09-21 13:42:10+00:00
+316,'Concept 2 PM3 monitor',60.0,99.0,Nispen,2020-09-21 13:25:11+00:00
+317,'Roei Apparaat Concept2',NaN,39.0,Harmelen,2020-09-21 12:28:10+00:00
+318,'Concept 2 model B roeitrainer met PM3 (geüpgraded)',375.0,65.0,Den Helder,2020-09-20 11:48:11+00:00
+319,'Concept2 roeitrainer model C zonder monitor',450.0,48.0,Utrecht,2020-09-20 08:57:16+00:00
+320,'Concept2 roeitrainer model C zonder monitor',450.0,48.0,Utrecht,2020-09-20 08:56:11+00:00
+321,'Concept 2',300.0,109.0,Cuijk,2020-09-20 07:43:11+00:00
+322,"'Roeitrainer Concept 2, fitness roeier met display.'",695.0,129.0,Hoogeveen,2020-09-20 07:32:11+00:00
+323,'Concept 2 Model D PM5 Zwart (met bon)',850.0,118.0,Eindhoven,2020-09-20 06:27:10+00:00
+324,'Concept 2 model D pm 3 monitor roeimachine',500.0,67.0,Ermelo,2020-09-19 14:54:11+00:00
+325,'Concept 2 roeitrainer',400.0,100.0,Sneek,2020-09-19 12:47:10+00:00
+326,'Concept 2 Roeitrainer model D met pm 3 scherm',600.0,99.0,Goirle,2020-09-19 11:15:11+00:00
+327,'Concept 2 roeimachine vintage model',NaN,37.0,'s-Gravenhage,2020-09-19 08:12:11+00:00
+328,'Concept 2 model C roeitrainer te koop!',550.0,18.0,Amsterdam,2020-09-18 15:06:11+00:00
+329,'concept 2 roeimachine',300.0,53.0,Rotterdam,2020-09-18 14:39:10+00:00
+330,'concept2 model E PM5 modelE concept2 zwart 2016',825.0,24.0,Oegstgeest,2020-09-18 13:33:11+00:00
+331,'concept2 model E PM5 modelE concept2 zwart',825.0,24.0,Oegstgeest,2020-09-18 13:10:11+00:00
+332,'Roeier Concept 2 PM3',700.0,51.0,Naaldwijk,2020-09-18 13:01:10+00:00
+333,'Concept 2 model E PM4',800.0,25.0,Katwijk,2020-09-18 11:23:11+00:00
+334,"'Concept 2 roeitrainer, fitness roeier met display.'",750.0,129.0,Hoogeveen,2020-09-18 10:14:10+00:00
+335,'Concept 2 pm2 pm3 computers monitor roeitrainer rower',NaN,90.0,Sloten,2020-09-18 09:13:03+00:00
+336,"'concept 2, x fitt, roeiapparaat, rower'",600.0,105.0,Zeeland,2020-09-18 09:13:03+00:00
+337,'Concept 2 roeitrainer',200.0,21.0,Amsterdam,2020-09-18 09:13:03+00:00
+338,'Roei Apparaat Concept 2 Zo Goed Als Nieuw!',NaN,20.0,Amsterdam,2020-09-18 09:12:58+00:00
+339,'2 footstrap riempjes voor de concept 2 roeimachine',6.0,77.0,Nunspeet,2020-09-18 09:12:58+00:00
+340,'Gezocht: concept2 monitor pm2 of pm3',NaN,63.0,Dordrecht,2020-09-18 09:12:58+00:00
+341,'Concept 2 Model E met PM4',699.0,0,Haarlem,2020-09-18 09:12:58+00:00
+342,'Concept 2 model E pm4',750.0,116.0,Babberich,2020-09-18 09:12:51+00:00
+343,'Concept 2 Roeiapparaat - werkt nog perfect! Originele staat',NaN,88.0,Breda,2020-09-18 09:12:51+00:00
+344,'Concept 2 model E roeitrainer met PM4 te koop!',675.0,0,Haarlem,2020-09-18 09:12:51+00:00
+345,'Concept pm2 of pm3 monitor gezocht',NaN,55.0,Amersfoort,2020-09-18 09:12:51+00:00
+346,'Concept 2 model E PM5 Roeitrainer',NaN,44.0,Berkel en Rodenrijs,2020-09-18 09:12:50+00:00
+347,'Concept 2 Roeitrainer Model D met Pm3 Scherm',NaN,99.0,Goirle,2020-09-18 09:12:46+00:00
+348,"'Concept 2 PM5 Flash Drive,  Nieuw!'",49.95,45.0,Delft,2020-09-18 09:12:46+00:00
+349,'Concept 2 roeimachine',500.0,19.0,Amsterdam,2020-09-18 09:12:46+00:00
+350,"'Concept 2 roeitrainer, type C'",NaN,91.0,Ugchelen,2020-09-18 09:12:45+00:00
+351,'Concept 2 model D roeitrainer te koop!',700.0,18.0,Amsterdam,2020-09-18 09:12:45+00:00
+352,'Concept 2 model C roeitrainer',425.0,65.0,Ermelo,2020-09-18 09:02:55+00:00

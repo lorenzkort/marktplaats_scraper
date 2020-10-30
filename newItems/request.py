@@ -13,8 +13,12 @@ def get_request(query_url):
         response = requests.get(query_url, headers=headers, cookies=cookies)
     except:
         telegram_send_text(str(response.status_code))
+    time.sleep(0.05)
     return response
 
 if __name__ == "__main__":
     r = get_request('https://www.marktplaats.nl/lrp/api/search?l1CategoryId=784&limit=100&offset=0&postcode=2012EG&query=concept%202&sortBy=SORT_INDEX&sortOrder=DECREASING')
-    #print(r.json())
+    listings = r.json()['listings']
+    for item in listings:
+        row = f"{item['date']} - {item['title']}"
+        print(row)

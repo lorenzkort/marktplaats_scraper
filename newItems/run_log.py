@@ -7,8 +7,8 @@ def get_time_df():
     df = pd.DataFrame(df_row)
     return df
 
-def log_this_run():
-    log_file = 'run_log.csv'
+def log_this_run(dir):
+    log_file = dir + 'run_log.csv'
     try:
         log = pd.read_csv(log_file, index_col=0)
     except:
