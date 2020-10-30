@@ -151,7 +151,7 @@ def send_message_per_item(df, chat_id='-425371692'):
             print(message)
             telegram_send_text(bot_message=message, chat_id=chat_id)
     else:
-        print("Now items to message")
+        print("No items to message")
     return
 
 def notify_concept2(chat_id='-425371692'):
