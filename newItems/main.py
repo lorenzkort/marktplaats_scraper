@@ -1,5 +1,5 @@
 import os
-from request_item import notify_concept2
+from request_item import notify_concept2, notify_sansui
 from telegram_bot import telegram_send_text
 from log_file_handler import app_log # initialize log handling settings
 import traceback # get error explanation
@@ -16,7 +16,8 @@ else:
 
 def main():
     try:
-        notify_concept2()
+        #notify_concept2()
+        notify_sansui()
         log_this_run(dir)
     except Exception as e:
         app_log.exception(str(e))
