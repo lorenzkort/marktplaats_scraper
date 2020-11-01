@@ -216,3 +216,12 @@ def notify_concept2(chat_id='-425371692'):
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
     return
+
+def notify_sansui(chat_id='-482088244'):
+    item_list = [
+        check_new_items('sansui', CategoryId=31),
+        check_new_items('sansui au 5500 ', CategoryId=31)
+    ]
+    new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
+    send_message_per_item(df=new_items, chat_id=chat_id)
+    return
