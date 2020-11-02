@@ -58,7 +58,7 @@ def get_items(keyword, query_url):
         
         items[index] = {
             'id': item['itemId'],
-            'title': item['title'],
+            'title': item['title'].replace('&','').replace("'", "").replace('"', ''),
             'url': base_url + item['vipUrl'],
             'bidType': item['priceInfo']['priceType'],
             'price': price,
