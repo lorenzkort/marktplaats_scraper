@@ -13,7 +13,7 @@ def get_request(query_url):
         response = requests.get(query_url, headers=headers, cookies=cookies)
     except:
         telegram_send_text(str(response.status_code))
-    time.sleep(0.05)
+    time.sleep(0.01)
     return response
 
 if __name__ == "__main__":
