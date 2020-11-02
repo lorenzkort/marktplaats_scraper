@@ -228,7 +228,6 @@ def notify_sansui(chat_id='-482088244'):
 
 def notify_synths(chat_id='-425619351'):
     item_list = [
-
         check_new_items('korg polysix', CategoryId=31),
         check_new_items('poly-61', CategoryId=31),
         check_new_items('poly 61', CategoryId=31),
@@ -254,7 +253,7 @@ def notify_synths(chat_id='-425619351'):
         check_new_items('roland j3-xp', CategoryId=31),
         check_new_items('roland juno 106', CategoryId=31),
         check_new_items('roland juno 6', CategoryId=31),
-        check_new_items('roland juno 60', CategoryId=31),
+        check_new_items('roland juno 60', CategoryId=31)
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
