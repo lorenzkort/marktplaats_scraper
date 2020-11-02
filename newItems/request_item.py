@@ -225,3 +225,12 @@ def notify_sansui(chat_id='-482088244'):
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
     return
+
+def notify_synths(chat_id='-425619351'):
+    item_list = [
+        check_new_items('korg polisyx', CategoryId=31),
+        check_new_items('moog grandmother ', CategoryId=31)
+    ]
+    new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
+    send_message_per_item(df=new_items, chat_id=chat_id)
+    return
