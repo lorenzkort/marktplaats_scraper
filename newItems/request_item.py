@@ -228,8 +228,33 @@ def notify_sansui(chat_id='-482088244'):
 
 def notify_synths(chat_id='-425619351'):
     item_list = [
-        check_new_items('korg polisyx', CategoryId=31),
-        check_new_items('moog grandmother ', CategoryId=31)
+
+        check_new_items('korg polysix', CategoryId=31),
+        check_new_items('poly-61', CategoryId=31),
+        check_new_items('poly 61', CategoryId=31),
+        check_new_items('korg ms-20', CategoryId=31),
+        check_new_items('korg ms 20', CategoryId=31),
+        check_new_items('korg ms20', CategoryId=31),
+        check_new_items('moog grandmother', CategoryId=31),
+        check_new_items('moog matriarch', CategoryId=31),
+        check_new_items('moog sub 37', CategoryId=31),
+        check_new_items('moog subsequent 37', CategoryId=31),
+        check_new_items('moog sub phatty', CategoryId=31),
+        check_new_items('moog voyager', CategoryId=31),
+        check_new_items('oberheim matrix 1000', CategoryId=31),
+        check_new_items('oberheim m1000', CategoryId=31),
+        check_new_items('oberheim m 1000', CategoryId=31),
+        check_new_items('oberheim matrix 6r', CategoryId=31),
+        check_new_items('oberheim ob-6', CategoryId=31),
+        check_new_items('oberheim ob6', CategoryId=31),
+        check_new_items('oberheim ob 6', CategoryId=31),
+        check_new_items('dave smith prophet 5', CategoryId=31),
+        check_new_items('dave smith prophet 6', CategoryId=31),
+        check_new_items('dave smith prophet 8', CategoryId=31),
+        check_new_items('roland j3-xp', CategoryId=31),
+        check_new_items('roland juno 106', CategoryId=31),
+        check_new_items('roland juno 6', CategoryId=31),
+        check_new_items('roland juno 60', CategoryId=31),
     ]
     new_items = pd.concat(item_list,ignore_index=True).drop_duplicates().reset_index(drop=True)
     send_message_per_item(df=new_items, chat_id=chat_id)
