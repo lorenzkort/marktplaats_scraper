@@ -14,15 +14,15 @@ def get(query_url):
         cookies = {"rbzid":"4xlWoDPOu+MgLjLMjkxVS3yyCIO2gtLWSaUXHVqU553tdMx4FWtm8OdONYZbzxorD/lcx84qCyxkKyBSWDY+gKi4YdtnFvnP/AIgjIW11tFyEFxexMgdvsmQ5da1fyVWiYva8Yf+DjFvUOfbZQ7iuFJkMKxkEiiZrj7EwjCz262C1ax531w7rf9YqsKaLSQIRZ2oEOA+jKKJp4Qc7w7YdY1iKIs4wBv8iAcn+3z1W6oij7QlPFejj8aJxsMH0/EUr+MjuJbsbYgFOV4mZC+XRTG+L+6twxqvZ6Tjp9bs1qe2VUzjqvO4TL/xN24Ov1we"}
         response = requests.get(query_url, headers=headers, cookies=cookies)
     except:
-        logging.info(f'API error: {response}')
+        logging.info(f'API error: {response} on URL: {query_url}')
     time.sleep(0.01)
     return response
 
 if __name__ == "__main__":
     r = get('https://www.marktplaats.nl/lrp/api/search?l1CategoryId=784&limit=100&offset=0&postcode=2012EG&query=concept%202&sortBy=SORT_INDEX&sortOrder=DECREASING')
     listings = r.json()['listings']
-    with open(DATASET_DIR / 'response.json', 'w+') as f:
-        [f.write(str(x) + '\n') for x in listings]
+    with open(DATASET_DIR / 'API/response.json', 'w+') as f:
+        [f.write(str(x).replace("'",'"') + '\n') for x in listings]
     for item in listings:
         row = f"{item['date']} - {item['title']}"
         print(row)

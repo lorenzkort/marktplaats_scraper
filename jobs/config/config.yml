@@ -2,12 +2,13 @@
 
 # PACKAGE
 package_name: "marktplaats"
+csv_delimiter: '|'
  
 # MAIN CONFIG DATA
 runs_per_hour: 60
+postalcode: 2312AJ
 channels:
   - chatId: -1001797708509
-    postalcode: 2312AJ
     spam_sellers:
      - 25776758
      - 40684643

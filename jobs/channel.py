@@ -25,7 +25,7 @@ def get_saved_listing_ids(chatId) -> set:
     """
     filename = str(chatId).replace('-','')
     try:
-        df = pd.read_csv(f'{DATASET_DIR}/channels/{filename}.csv', delimiter='|')
+        df = pd.read_csv(f'{DATASET_DIR}/channels/{filename}.csv', delimiter=config.csv_delimiter)
     except pd.errors.EmptyDataError:
         logging.info(f"{chatId}: No known id's")
         return set()
@@ -81,7 +81,7 @@ def save_new_listings(chatId, new_listings: pd.DataFrame) -> None:
     else:
         header = True
 
-    new_listings.to_csv(f'{DATASET_DIR}/channels/{filename}', mode='a', sep='|', header=header)
+    new_listings.to_csv(f'{DATASET_DIR}/channels/{filename}', mode='a', sep=config.csv_delimiter, header=header)
 
     return
 

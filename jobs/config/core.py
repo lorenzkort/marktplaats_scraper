@@ -32,7 +32,6 @@ class Channel(BaseModel):
     Telegram channel destination
     """
     chatId: int
-    postalcode: str
     spam_sellers: list[str]
     searches: list[Search]
 
@@ -41,7 +40,9 @@ class Config(BaseModel):
     Master config object.
     """
     package_name: str
+    csv_delimiter: str
     runs_per_hour: int
+    postalcode: str
     channels: list[Channel]
 
     log_format: str

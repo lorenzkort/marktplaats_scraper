@@ -87,7 +87,7 @@ def clean_items(items):
         except:
             distance = '0'
 
-        title = item['title'].replace('&','').replace("'", "").replace('"', '')
+        title = item['title'].replace('&','').replace("'", "").replace('"', '').replace(config.csv_delimiter, '')
         t_price = target_price(c2type(title), monitortype(title))
         if type(price) == int and t_price != 0:
             margin = t_price - price
@@ -125,7 +125,7 @@ def filter_seller_id(df, sellerIds, keyword):
         logging.info(f"{keyword}: {len(df)} items in API response")
     return df
 
-def get_listings(keyword, categoryId, titleAndDescription=False, postalcode='2012EG',spam_sellers=[]):
+def get_listings(keyword, categoryId, titleAndDescription=False, postalcode=config.postalcode,spam_sellers=[]):
     # create url
     query_url = url_gen(keyword=keyword, categoryId=categoryId, titleAndDescription=titleAndDescription, postalcode=postalcode)
 
