@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: marktplaats
+Version: 0.0.1
+Summary: Creates notification on telegram channel when new item specified comes online
+Home-page: https://github.com/1234567890
+Author: lor_kort
+Author-email: lorenz.kort@gmail.com
+License: BSD-3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+Creates notification on telegram channel when new item specified comes online
+

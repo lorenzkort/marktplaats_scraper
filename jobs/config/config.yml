@@ -1,0 +1,51 @@
+########################################### CONFIG FILE NAMING CONVENTION #############################################
+
+# PACKAGE
+package_name: "marktplaats"
+ 
+# MAIN CONFIG DATA
+runs_per_hour: 60
+channels:
+  - chatId: -1001797708509
+    postalcode: 2012EG
+    spam_sellers:
+     - 25776758
+     - 40684643
+     - 2085858
+     - 19523430
+     - 20558893
+    searches:
+      - keyword: concept 2
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept 2 model C
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept 2 model D
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept 2 model E
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept II
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept II model C
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept II model D
+        categoryId: 784
+        titleAndDescription: True
+      - keyword: concept II model E
+        categoryId: 784
+        titleAndDescription: True
+      
+
+      
+
+
+
+ 
+# LOG CONFIG
+log_format: '%(asctime)s %(levelname)s: %(message)s'
+date_time_format: "%Y-%m-%d %H:%M:%S"

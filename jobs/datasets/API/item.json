@@ -1,0 +1,67 @@
+{
+    "itemId": "m1827102747",
+    "title": "Concept 2 Model E PM5",
+    "description": "Zeer weinig gebruikt! We maken er graag iemand anders blij mee!! Vaste prijs.",
+    "priceInfo": {
+        "priceCents": 90000,
+        "priceType": "FIXED"
+    },
+    "location": {
+        "cityName": "De Meern",
+        "countryName": "Nederland",
+        "countryAbbreviation": "NL",
+        "distanceMeters": 42000,
+        "isBuyerLocation": False,
+        "onCountryLevel": False,
+        "abroad": False,
+        "latitude": 52.089395375194,
+        "longitude": 5.0334512044706
+    },
+    "date": "2022-04-02T14: 49: 51Z",
+    "imageUrls": [
+        "//i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vbIAAOSwrY5iSGIU/$_82.JPG"
+    ],
+    "sellerInformation": {
+        "sellerId": 15454923,
+        "sellerName": "Jojanneke",
+        "showSoiUrl": True,
+        "showWebsiteUrl": False,
+        "isVerified": False
+    },
+    "categoryId": 803,
+    "priorityProduct": "NONE",
+    "videoOnVip": False,
+    "urgencyFeatureActive": False,
+    "napAvailable": False,
+    "attributes": [
+        {
+            "key": "condition",
+            "value": "Zo goed als nieuw"
+        },
+        {
+            "key": "delivery",
+            "value": "Ophalen"
+        }
+    ],
+    "traits": [
+        "PACKAGE_FREE"
+    ],
+    "verticals": [
+        "rowing",
+        "sport_and_fitness"
+    ],
+    "pictures": [
+        {
+            "id": 7811037337,
+            "extraSmallUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vbIAAOSwrY5iSGIU/$_14.JPG",
+            "mediumUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vbIAAOSwrY5iSGIU/$_82.JPG",
+            "largeUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vbIAAOSwrY5iSGIU/$_83.JPG",
+            "extraExtraLargeUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/vbIAAOSwrY5iSGIU/$_85.JPG",
+            "aspectRatio": {
+                "width": 4,
+                "height": 3
+            }
+        }
+    ],
+    "vipUrl": "/v/sport-en-fitness/fitnessapparatuur/m1827102747-concept-2-model-e-pm5"
+}

@@ -1,0 +1,383 @@
+2022-04-03 12:16:23 INFO: test
+2022-04-03 12:35:05 INFO: Before importing: 75
+2022-04-03 12:35:05 INFO: After filtering: 67
+2022-04-03 13:42:25 INFO: Before importing: 75
+2022-04-03 13:42:25 INFO: After filtering: 68
+2022-04-03 13:43:55 INFO: Before importing: 75
+2022-04-03 13:43:55 INFO: After filtering: 68
+2022-04-03 16:07:14 INFO: Before importing: 100
+2022-04-03 16:07:14 INFO: After filtering: 81
+2022-04-03 16:07:15 INFO: Before importing: 6
+2022-04-03 16:07:15 INFO: After filtering: 6
+2022-04-03 16:07:15 INFO: Before importing: 17
+2022-04-03 16:07:15 INFO: After filtering: 16
+2022-04-03 16:07:15 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:07:46 INFO: Before importing: 100
+2022-04-03 16:07:46 INFO: After filtering: 81
+2022-04-03 16:07:47 INFO: Before importing: 6
+2022-04-03 16:07:47 INFO: After filtering: 6
+2022-04-03 16:07:47 INFO: Before importing: 17
+2022-04-03 16:07:47 INFO: After filtering: 16
+2022-04-03 16:07:47 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:08:18 INFO: Before importing: 100
+2022-04-03 16:08:18 INFO: After filtering: 81
+2022-04-03 16:08:18 INFO: Before importing: 6
+2022-04-03 16:08:18 INFO: After filtering: 6
+2022-04-03 16:08:18 INFO: Before importing: 17
+2022-04-03 16:08:18 INFO: After filtering: 16
+2022-04-03 16:08:18 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:08:49 INFO: Before importing: 100
+2022-04-03 16:08:49 INFO: After filtering: 81
+2022-04-03 16:08:50 INFO: Before importing: 6
+2022-04-03 16:08:50 INFO: After filtering: 6
+2022-04-03 16:08:50 INFO: Before importing: 17
+2022-04-03 16:08:50 INFO: After filtering: 16
+2022-04-03 16:08:50 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:09:34 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:09:34 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:09:35 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:09:35 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:10:05 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:10:06 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:10:06 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:10:06 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:10:37 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:10:37 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:10:37 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:10:37 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:12:18 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:12:19 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:12:19 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:12:19 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:14:20 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:14:20 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:14:21 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:14:21 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:16:22 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:16:22 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:16:23 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:16:23 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:18:23 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:18:24 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:18:24 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:18:24 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:20:25 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:20:26 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:20:26 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:20:26 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:21:11 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:21:11 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:21:12 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:21:13 INFO: All items filtered out. No relevant items left for keyword: concept 2 model E
+2022-04-03 16:21:13 INFO: All items filtered out. No relevant items left for keyword: concept II
+2022-04-03 16:21:14 INFO: No items found for keyword: concept II model C
+2022-04-03 16:21:14 INFO: No items found for keyword: concept II model D
+2022-04-03 16:21:15 INFO: No items found for keyword: concept II model E
+2022-04-03 16:21:27 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:22:28 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:22:29 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:22:30 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:22:30 INFO: All items filtered out. No relevant items left for keyword: concept 2 model E
+2022-04-03 16:22:31 INFO: All items filtered out. No relevant items left for keyword: concept II
+2022-04-03 16:22:32 INFO: No items found for keyword: concept II model C
+2022-04-03 16:22:32 INFO: No items found for keyword: concept II model D
+2022-04-03 16:22:32 INFO: No items found for keyword: concept II model E
+2022-04-03 16:22:32 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:23:33 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:23:34 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:23:34 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:23:35 INFO: All items filtered out. No relevant items left for keyword: concept 2 model E
+2022-04-03 16:23:36 INFO: All items filtered out. No relevant items left for keyword: concept II
+2022-04-03 16:23:36 INFO: No items found for keyword: concept II model C
+2022-04-03 16:23:37 INFO: No items found for keyword: concept II model D
+2022-04-03 16:23:37 INFO: No items found for keyword: concept II model E
+2022-04-03 16:23:37 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:24:38 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:24:39 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:24:40 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:24:40 INFO: All items filtered out. No relevant items left for keyword: concept 2 model E
+2022-04-03 16:24:41 INFO: All items filtered out. No relevant items left for keyword: concept II
+2022-04-03 16:24:42 INFO: No items found for keyword: concept II model C
+2022-04-03 16:24:42 INFO: No items found for keyword: concept II model D
+2022-04-03 16:24:43 INFO: No items found for keyword: concept II model E
+2022-04-03 16:24:43 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:25:44 INFO: All items filtered out. No relevant items left for keyword: concept 2
+2022-04-03 16:25:44 INFO: All items filtered out. No relevant items left for keyword: concept 2 model C
+2022-04-03 16:25:45 INFO: All items filtered out. No relevant items left for keyword: concept 2 model D
+2022-04-03 16:25:46 INFO: All items filtered out. No relevant items left for keyword: concept 2 model E
+2022-04-03 16:25:46 INFO: All items filtered out. No relevant items left for keyword: concept II
+2022-04-03 16:25:47 INFO: No items found for keyword: concept II model C
+2022-04-03 16:25:47 INFO: No items found for keyword: concept II model D
+2022-04-03 16:25:47 INFO: No items found for keyword: concept II model E
+2022-04-03 16:25:47 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:29:26 INFO: concept 2: 100 items in API response
+2022-04-03 16:29:26 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:29:27 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:29:27 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:29:28 INFO: concept II: 7 items in API response
+2022-04-03 16:29:28 INFO: concept II model C: 0 items in API response
+2022-04-03 16:29:28 INFO: concept II model D: 0 items in API response
+2022-04-03 16:29:28 INFO: concept II model E: 0 items in API response
+2022-04-03 16:29:28 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:30:29 INFO: concept 2: 100 items in API response
+2022-04-03 16:30:30 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:30:30 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:30:31 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:30:31 INFO: concept II: 7 items in API response
+2022-04-03 16:30:31 INFO: concept II model C: 0 items in API response
+2022-04-03 16:30:32 INFO: concept II model D: 0 items in API response
+2022-04-03 16:30:32 INFO: concept II model E: 0 items in API response
+2022-04-03 16:30:32 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:33:26 INFO: -1001797708509: No known id's
+2022-04-03 16:33:26 INFO: concept 2: 100 items in API response
+2022-04-03 16:33:27 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:33:27 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:33:28 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:33:28 INFO: concept II: 7 items in API response
+2022-04-03 16:33:29 INFO: concept II model C: 0 items in API response
+2022-04-03 16:33:29 INFO: concept II model D: 0 items in API response
+2022-04-03 16:33:30 INFO: concept II model E: 0 items in API response
+2022-04-03 16:33:30 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:34:06 INFO: concept 2: 100 items in API response
+2022-04-03 16:34:07 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:34:07 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:34:08 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:34:08 INFO: concept II: 7 items in API response
+2022-04-03 16:34:08 INFO: concept II model C: 0 items in API response
+2022-04-03 16:34:08 INFO: concept II model D: 0 items in API response
+2022-04-03 16:34:09 INFO: concept II model E: 0 items in API response
+2022-04-03 16:34:09 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:35:09 INFO: concept 2: 100 items in API response
+2022-04-03 16:35:10 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:35:10 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:35:11 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:35:11 INFO: concept II: 7 items in API response
+2022-04-03 16:35:11 INFO: concept II model C: 0 items in API response
+2022-04-03 16:35:12 INFO: concept II model D: 0 items in API response
+2022-04-03 16:35:12 INFO: concept II model E: 0 items in API response
+2022-04-03 16:35:12 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:36:13 INFO: concept 2: 100 items in API response
+2022-04-03 16:36:13 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:36:14 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:36:14 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:36:15 INFO: concept II: 7 items in API response
+2022-04-03 16:36:15 INFO: concept II model C: 0 items in API response
+2022-04-03 16:36:15 INFO: concept II model D: 0 items in API response
+2022-04-03 16:36:15 INFO: concept II model E: 0 items in API response
+2022-04-03 16:36:15 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:37:16 INFO: concept 2: 100 items in API response
+2022-04-03 16:37:16 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:37:17 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:37:17 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:37:18 INFO: concept II: 7 items in API response
+2022-04-03 16:37:18 INFO: concept II model C: 0 items in API response
+2022-04-03 16:37:19 INFO: concept II model D: 0 items in API response
+2022-04-03 16:37:19 INFO: concept II model E: 0 items in API response
+2022-04-03 16:37:19 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:38:20 INFO: concept 2: 100 items in API response
+2022-04-03 16:38:20 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:38:20 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:38:21 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:38:21 INFO: concept II: 7 items in API response
+2022-04-03 16:38:21 INFO: concept II model C: 0 items in API response
+2022-04-03 16:38:21 INFO: concept II model D: 0 items in API response
+2022-04-03 16:38:22 INFO: concept II model E: 0 items in API response
+2022-04-03 16:38:22 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:39:22 INFO: concept 2: 100 items in API response
+2022-04-03 16:39:23 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:39:23 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:39:23 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:39:24 INFO: concept II: 7 items in API response
+2022-04-03 16:39:24 INFO: concept II model C: 0 items in API response
+2022-04-03 16:39:25 INFO: concept II model D: 0 items in API response
+2022-04-03 16:39:25 INFO: concept II model E: 0 items in API response
+2022-04-03 16:39:25 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:40:26 INFO: concept 2: 100 items in API response
+2022-04-03 16:40:26 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:40:27 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:40:27 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:40:28 INFO: concept II: 7 items in API response
+2022-04-03 16:40:28 INFO: concept II model C: 0 items in API response
+2022-04-03 16:40:28 INFO: concept II model D: 0 items in API response
+2022-04-03 16:40:29 INFO: concept II model E: 0 items in API response
+2022-04-03 16:40:29 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:41:29 INFO: concept 2: 100 items in API response
+2022-04-03 16:41:30 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:41:30 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:41:30 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:41:31 INFO: concept II: 7 items in API response
+2022-04-03 16:41:31 INFO: concept II model C: 0 items in API response
+2022-04-03 16:41:31 INFO: concept II model D: 0 items in API response
+2022-04-03 16:41:32 INFO: concept II model E: 0 items in API response
+2022-04-03 16:41:32 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:42:33 INFO: concept 2: 100 items in API response
+2022-04-03 16:42:34 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:42:34 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:42:35 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:42:35 INFO: concept II: 7 items in API response
+2022-04-03 16:42:35 INFO: concept II model C: 0 items in API response
+2022-04-03 16:42:36 INFO: concept II model D: 0 items in API response
+2022-04-03 16:42:36 INFO: concept II model E: 0 items in API response
+2022-04-03 16:42:36 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:43:36 INFO: concept 2: 100 items in API response
+2022-04-03 16:43:37 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:43:37 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:43:37 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:43:38 INFO: concept II: 7 items in API response
+2022-04-03 16:43:38 INFO: concept II model C: 0 items in API response
+2022-04-03 16:43:38 INFO: concept II model D: 0 items in API response
+2022-04-03 16:43:39 INFO: concept II model E: 0 items in API response
+2022-04-03 16:43:39 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:44:39 INFO: concept 2: 100 items in API response
+2022-04-03 16:44:40 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:44:40 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:44:41 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:44:41 INFO: concept II: 7 items in API response
+2022-04-03 16:44:42 INFO: concept II model C: 0 items in API response
+2022-04-03 16:44:42 INFO: concept II model D: 0 items in API response
+2022-04-03 16:44:42 INFO: concept II model E: 0 items in API response
+2022-04-03 16:44:42 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:45:43 INFO: concept 2: 100 items in API response
+2022-04-03 16:45:43 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:45:44 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:45:44 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:45:45 INFO: concept II: 7 items in API response
+2022-04-03 16:45:45 INFO: concept II model C: 0 items in API response
+2022-04-03 16:45:45 INFO: concept II model D: 0 items in API response
+2022-04-03 16:45:46 INFO: concept II model E: 0 items in API response
+2022-04-03 16:45:46 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:46:46 INFO: concept 2: 100 items in API response
+2022-04-03 16:46:47 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:46:47 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:46:48 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:46:48 INFO: concept II: 7 items in API response
+2022-04-03 16:46:49 INFO: concept II model C: 0 items in API response
+2022-04-03 16:46:50 INFO: concept II model D: 0 items in API response
+2022-04-03 16:46:50 INFO: concept II model E: 0 items in API response
+2022-04-03 16:46:50 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:47:51 INFO: concept 2: 100 items in API response
+2022-04-03 16:47:52 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:47:52 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:47:53 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:47:53 INFO: concept II: 7 items in API response
+2022-04-03 16:47:54 INFO: concept II model C: 0 items in API response
+2022-04-03 16:47:54 INFO: concept II model D: 0 items in API response
+2022-04-03 16:47:55 INFO: concept II model E: 0 items in API response
+2022-04-03 16:47:55 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:48:56 INFO: concept 2: 100 items in API response
+2022-04-03 16:48:56 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:48:56 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:48:57 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:48:58 INFO: concept II: 7 items in API response
+2022-04-03 16:48:58 INFO: concept II model C: 0 items in API response
+2022-04-03 16:48:58 INFO: concept II model D: 0 items in API response
+2022-04-03 16:48:59 INFO: concept II model E: 0 items in API response
+2022-04-03 16:48:59 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:49:59 INFO: concept 2: 100 items in API response
+2022-04-03 16:50:00 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:50:00 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:50:01 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:50:01 INFO: concept II: 7 items in API response
+2022-04-03 16:50:01 INFO: concept II model C: 0 items in API response
+2022-04-03 16:50:04 INFO: concept II model D: 0 items in API response
+2022-04-03 16:50:04 INFO: concept II model E: 0 items in API response
+2022-04-03 16:50:04 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:51:05 INFO: concept 2: 100 items in API response
+2022-04-03 16:51:06 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:51:06 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:51:07 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:51:07 INFO: concept II: 7 items in API response
+2022-04-03 16:51:08 INFO: concept II model C: 0 items in API response
+2022-04-03 16:51:08 INFO: concept II model D: 0 items in API response
+2022-04-03 16:51:08 INFO: concept II model E: 0 items in API response
+2022-04-03 16:51:08 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:52:09 INFO: concept 2: 100 items in API response
+2022-04-03 16:52:10 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:52:10 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:52:11 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:52:12 INFO: concept II: 7 items in API response
+2022-04-03 16:52:12 INFO: concept II model C: 0 items in API response
+2022-04-03 16:52:13 INFO: concept II model D: 0 items in API response
+2022-04-03 16:52:13 INFO: concept II model E: 0 items in API response
+2022-04-03 16:52:13 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:53:14 INFO: concept 2: 100 items in API response
+2022-04-03 16:53:14 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:53:15 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:53:15 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:53:15 INFO: concept II: 7 items in API response
+2022-04-03 16:53:16 INFO: concept II model C: 0 items in API response
+2022-04-03 16:53:16 INFO: concept II model D: 0 items in API response
+2022-04-03 16:53:16 INFO: concept II model E: 0 items in API response
+2022-04-03 16:53:16 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:54:17 INFO: concept 2: 100 items in API response
+2022-04-03 16:54:17 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:54:18 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:54:18 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:54:19 INFO: concept II: 7 items in API response
+2022-04-03 16:54:19 INFO: concept II model C: 0 items in API response
+2022-04-03 16:54:19 INFO: concept II model D: 0 items in API response
+2022-04-03 16:54:20 INFO: concept II model E: 0 items in API response
+2022-04-03 16:54:20 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:55:21 INFO: concept 2: 100 items in API response
+2022-04-03 16:55:21 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:55:21 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:55:22 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:55:22 INFO: concept II: 7 items in API response
+2022-04-03 16:55:23 INFO: concept II model C: 0 items in API response
+2022-04-03 16:55:23 INFO: concept II model D: 0 items in API response
+2022-04-03 16:55:23 INFO: concept II model E: 0 items in API response
+2022-04-03 16:55:23 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:56:24 INFO: concept 2: 100 items in API response
+2022-04-03 16:56:24 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:56:25 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:56:25 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:56:25 INFO: concept II: 7 items in API response
+2022-04-03 16:56:26 INFO: concept II model C: 0 items in API response
+2022-04-03 16:56:26 INFO: concept II model D: 0 items in API response
+2022-04-03 16:56:26 INFO: concept II model E: 0 items in API response
+2022-04-03 16:56:26 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:57:27 INFO: concept 2: 100 items in API response
+2022-04-03 16:57:28 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:57:28 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:57:28 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:57:29 INFO: concept II: 7 items in API response
+2022-04-03 16:57:29 INFO: concept II model C: 0 items in API response
+2022-04-03 16:57:30 INFO: concept II model D: 0 items in API response
+2022-04-03 16:57:30 INFO: concept II model E: 0 items in API response
+2022-04-03 16:57:30 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:58:31 INFO: concept 2: 100 items in API response
+2022-04-03 16:58:31 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:58:31 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:58:32 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:58:32 INFO: concept II: 7 items in API response
+2022-04-03 16:58:33 INFO: concept II model C: 0 items in API response
+2022-04-03 16:58:33 INFO: concept II model D: 0 items in API response
+2022-04-03 16:58:33 INFO: concept II model E: 0 items in API response
+2022-04-03 16:58:33 INFO: -1001797708509: Checked for new listings
+2022-04-03 16:59:34 INFO: concept 2: 100 items in API response
+2022-04-03 16:59:34 INFO: concept 2 model C: 6 items in API response
+2022-04-03 16:59:35 INFO: concept 2 model D: 18 items in API response
+2022-04-03 16:59:35 INFO: concept 2 model E: 12 items in API response
+2022-04-03 16:59:36 INFO: concept II: 7 items in API response
+2022-04-03 16:59:36 INFO: concept II model C: 0 items in API response
+2022-04-03 16:59:36 INFO: concept II model D: 0 items in API response
+2022-04-03 16:59:37 INFO: concept II model E: 0 items in API response
+2022-04-03 16:59:37 INFO: -1001797708509: Checked for new listings
+2022-04-03 17:00:37 INFO: concept 2: 100 items in API response
+2022-04-03 17:00:38 INFO: concept 2 model C: 6 items in API response
+2022-04-03 17:00:38 INFO: concept 2 model D: 18 items in API response
+2022-04-03 17:00:39 INFO: concept 2 model E: 12 items in API response
+2022-04-03 17:00:39 INFO: concept II: 7 items in API response
+2022-04-03 17:00:39 INFO: concept II model C: 0 items in API response
+2022-04-03 17:00:40 INFO: concept II model D: 0 items in API response
+2022-04-03 17:00:40 INFO: concept II model E: 0 items in API response
+2022-04-03 17:00:40 INFO: -1001797708509: Checked for new listings
+2022-04-03 17:01:41 INFO: concept 2: 100 items in API response
+2022-04-03 17:01:41 INFO: concept 2 model C: 6 items in API response
+2022-04-03 17:01:41 INFO: concept 2 model D: 18 items in API response
+2022-04-03 17:01:42 INFO: concept 2 model E: 12 items in API response
+2022-04-03 17:01:42 INFO: concept II: 7 items in API response
+2022-04-03 17:01:43 INFO: concept II model C: 0 items in API response
+2022-04-03 17:01:43 INFO: concept II model D: 0 items in API response
+2022-04-03 17:01:43 INFO: concept II model E: 0 items in API response
+2022-04-03 17:01:43 INFO: -1001797708509: Checked for new listings
