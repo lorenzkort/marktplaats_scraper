@@ -7,7 +7,7 @@ package_name: "marktplaats"
 runs_per_hour: 60
 channels:
   - chatId: -1001797708509
-    postalcode: 2012EG
+    postalcode: 2312AJ
     spam_sellers:
      - 25776758
      - 40684643
@@ -39,11 +39,6 @@ channels:
       - keyword: concept II model E
         categoryId: 784
         titleAndDescription: True
-      
-
-      
-
-
 
  
 # LOG CONFIG

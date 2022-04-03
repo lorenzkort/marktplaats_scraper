@@ -5,7 +5,10 @@ setup.py
 ./requirements/requirements.txt
 ./requirements/test_requirements.txt
 jobs/__init__.py
-jobs/test.py
+jobs/api.py
+jobs/channel.py
+jobs/listings.py
+jobs/telegram.py
 jobs/config/__init__.py
 jobs/config/core.py
 jobs/processing/__init__.py
