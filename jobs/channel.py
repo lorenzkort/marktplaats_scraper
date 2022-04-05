@@ -48,12 +48,14 @@ def aggregate_called_listings(chatId) -> pd.DataFrame:
             keyword=s.keyword, 
             categoryId=s.categoryId,
             titleAndDescription=s.titleAndDescription,
-            postalcode=channel.postalcode, 
+            postalcode=config.postalcode, 
             spam_sellers=channel.spam_sellers)
+        if len(search.index) != 0: # Prevent unwanted categories to pop up in search results
+            search = search[search.url.str.contains(channel.category_regex, regex= True, na=False)]
         set_of_searches.append(search)
     
     unique_listings = pd.concat(set_of_searches)
-    unique_listings.drop_duplicates(subset="id")
+    unique_listings = unique_listings.drop_duplicates(subset="id")
 
     return unique_listings
 
@@ -62,9 +64,9 @@ def get_new_listings(chatId, saved_ids) -> pd.DataFrame:
     Creates dataframe of listings having an unkown listing-ID
     """
     called_listings = aggregate_called_listings(chatId)
-    new_listings = called_listings[~called_listings['id'].isin(saved_ids)]
-    new_listings.set_index("id", inplace = True)
-    
+    called_listings.set_index("id", inplace = True)
+    new_listings = called_listings[~called_listings.index.isin(saved_ids)]
+
     return new_listings
 
 def save_new_listings(chatId, new_listings: pd.DataFrame) -> None:
@@ -114,13 +116,14 @@ def check_for_new_listings(chatId) -> None:
     saved_ids = get_saved_listing_ids(chatId)
     new_listings = get_new_listings(chatId, saved_ids)
     save_new_listings(chatId, new_listings)
-    # send_messages(chatId, new_listings)
+    send_messages(chatId, new_listings)
     return
 
 if __name__ == "__main__":
-    chatId = -1001797708509
-    saved_ids = get_saved_listing_ids(chatId)
-    new_listings = get_new_listings(chatId, saved_ids)
-    save_new_listings(chatId, new_listings)
-    send_messages(chatId, new_listings)
-    print(new_listings)
+    # chatId = -1001797708509
+    # saved_ids = get_saved_listing_ids(chatId)
+    # new_listings = get_new_listings(chatId, saved_ids)
+    # save_new_listings(chatId, new_listings)
+    # send_messages(chatId, new_listings)
+    # print(new_listings)
+    pass

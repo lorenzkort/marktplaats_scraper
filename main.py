@@ -21,4 +21,6 @@ if __name__ == "__main__":
         msg = f'{channel.chatId}: Checked for new listings'
         logging.info(msg)
         print(msg)
-        time.sleep(3600 / config.runs_per_hour)
+        break
+        # time.sleep(3600 / config.runs_per_hour)
+        

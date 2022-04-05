@@ -87,7 +87,8 @@ def clean_items(items):
         except:
             distance = '0'
 
-        title = item['title'].replace('&','').replace("'", "").replace('"', '').replace(config.csv_delimiter, '')
+        title = item['title'].replace('&','').replace("'", "").replace('"', '').replace(config.csv_delimiter, '').strip()
+
         t_price = target_price(c2type(title), monitortype(title))
         if type(price) == int and t_price != 0:
             margin = t_price - price
@@ -95,9 +96,10 @@ def clean_items(items):
                 margin = 0
         else:
             margin = 0
+        id = re.sub("[^0-9a-zA-Z ]+", "", item['itemId'])
         
         items[index] = {
-            'id': item['itemId'],
+            'id': id,
             'title': title,
             'url': base_url + item['vipUrl'],
             'price': price,
@@ -109,7 +111,7 @@ def clean_items(items):
             'monitortype': monitortype(title),
             'target_price': t_price,
             'margin': margin,
-            'date':item['date']
+            'date':item['date'],
         }
     return items
 
@@ -125,7 +127,7 @@ def filter_seller_id(df, sellerIds, keyword):
         logging.info(f"{keyword}: {len(df)} items in API response")
     return df
 
-def get_listings(keyword, categoryId, titleAndDescription=False, postalcode=config.postalcode,spam_sellers=[]):
+def get_listings(keyword, categoryId, titleAndDescription=False, postalcode=config.postalcode, spam_sellers=[]) -> pd.DataFrame:
     # create url
     query_url = url_gen(keyword=keyword, categoryId=categoryId, titleAndDescription=titleAndDescription, postalcode=postalcode)
 
@@ -145,3 +147,6 @@ if __name__ == "__main__":
     spam_sellers = [25776758]
     df = get_listings(keyword, categoryId, titleAndDescription=False, postalcode='2012EG', spam_sellers=spam_sellers)
     save = df.to_csv(DATASET_DIR / 'listings.csv')
+
+# TODO
+# filter on negative keywords from channel config

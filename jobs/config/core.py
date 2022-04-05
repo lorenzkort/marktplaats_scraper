@@ -32,6 +32,7 @@ class Channel(BaseModel):
     Telegram channel destination
     """
     chatId: int
+    category_regex: str
     spam_sellers: list[str]
     searches: list[Search]
 

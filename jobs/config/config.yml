@@ -9,12 +9,13 @@ runs_per_hour: 60
 postalcode: 2312AJ
 channels:
   - chatId: -1001797708509
+    category_regex: 'sport-en-fitness'
     spam_sellers:
-     - 25776758
-     - 40684643
-     - 2085858
-     - 19523430
-     - 20558893
+      - 25776758
+      - 40684643
+      - 2085858
+      - 19523430
+      - 20558893
     searches:
       - keyword: concept 2
         categoryId: 784
