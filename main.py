@@ -17,7 +17,7 @@ logging.basicConfig(
         RotatingFileHandler(
             LOG_DIR / 'info.log',
             maxBytes=1048576,
-            backupCount=5)
+            backupCount=2)
     ])
 
 if __name__ == "__main__":
