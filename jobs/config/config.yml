@@ -8,7 +8,7 @@ csv_delimiter: '|'
 runs_per_hour: 60
 postalcode: 2312AJ
 channels:
-  - chatId: -1001797708509
+  - chatId: -1099999999
     category_regex: 'sport-en-fitness'
     spam_sellers:
       - 25776758
